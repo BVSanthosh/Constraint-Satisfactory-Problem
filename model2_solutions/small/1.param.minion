@@ -1,0 +1,127 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 6
+# CSE_active_eliminated_expressions = 13
+# CSE_active_total_size = 21
+**VARIABLES**
+DISCRETE timetable_00003_00005 #
+{0..1}
+DISCRETE timetable_00003_00006 #
+{0..1}
+DISCRETE timetable_00003_00007 #
+{0..1}
+DISCRETE timetable_00003_00008 #
+{0..1}
+DISCRETE timetable_00003_00009 #
+{0..1}
+DISCRETE timetable_00004_00005 #
+{0..1}
+DISCRETE timetable_00004_00006 #
+{0..1}
+DISCRETE timetable_00004_00007 #
+{0..1}
+DISCRETE timetable_00004_00008 #
+{0..1}
+DISCRETE timetable_00004_00009 #
+{0..1}
+DISCRETE timetable_00004_00010 #
+{0..1}
+DISCRETE timetable_00005_00007 #
+{0..1}
+DISCRETE timetable_00005_00008 #
+{0..1}
+DISCRETE timetable_00005_00009 #
+{0..1}
+DISCRETE timetable_00005_00010 #
+{0..1}
+DISCRETE total_time #
+{9..11}
+DISCRETE aux0 #Active-CSE: 3 occurrences of this expression or equivalent: (timetable_00003_00009 + timetable_00004_00009 + timetable_00005_00009)
+{0..2}
+DISCRETE aux1 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00003_00007 + timetable_00004_00007 + timetable_00005_00007)
+{1..2}
+DISCRETE aux2 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00003_00008 + timetable_00004_00008 + timetable_00005_00008)
+{1..2}
+BOOL aux3 #Active-CSE: 2 occurrences of this expression or equivalent: (9<total_time)
+BOOL aux4 #Active-CSE: 2 occurrences of this expression or equivalent: (10<total_time)
+DISCRETE aux5 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00004_00010 + timetable_00005_00010)
+{0..2}
+BOOL aux6 #(timetable_00003_00007=1)
+BOOL aux7 #(timetable_00003_00008=1)
+BOOL aux8 #(timetable_00003_00009=1)
+**VARIABLES**
+ALIAS duration[6]=[0, 4, 2, 4, 1, 0]
+**TUPLELIST**
+manning 6 3
+0 0 0 
+0 4 2 
+0 1 1 
+3 0 0 
+1 3 1 
+0 0 0 
+**VARIABLES**
+ALIAS manning[6,3]=[[0, 0, 0], [0, 4, 2], [0, 1, 1], [3, 0, 0], [1, 3, 1], [0, 0, 0]]
+**VARIABLES**
+ALIAS available_personnel[3]=[4, 5, 3]
+**TUPLELIST**
+order 6 2
+1 2 
+2 3 
+2 4 
+3 5 
+4 6 
+5 6 
+**VARIABLES**
+ALIAS order[6,2]=[[1, 2], [2, 3], [2, 4], [3, 5], [4, 6], [5, 6]]
+**SEARCH**
+PRINT[[timetable_00003_00005],[timetable_00003_00006],[timetable_00003_00007],[timetable_00003_00008],[timetable_00003_00009],[timetable_00004_00005],[timetable_00004_00006],[timetable_00004_00007],[timetable_00004_00008],[timetable_00004_00009],[timetable_00004_00010],[timetable_00005_00007],[timetable_00005_00008],[timetable_00005_00009],[timetable_00005_00010],[total_time],[total_time]]
+MINIMISING total_time
+VARORDER STATIC [timetable_00003_00005, timetable_00003_00006, timetable_00003_00007, timetable_00003_00008, timetable_00003_00009, timetable_00004_00005, timetable_00004_00006, timetable_00004_00007, timetable_00004_00008, timetable_00004_00009, timetable_00004_00010, timetable_00005_00007, timetable_00005_00008, timetable_00005_00009, timetable_00005_00010, total_time]
+VARORDER STATIC [timetable_00003_00005,timetable_00003_00006,timetable_00003_00007,timetable_00003_00008,timetable_00003_00009,timetable_00004_00005,timetable_00004_00006,timetable_00004_00007,timetable_00004_00008,timetable_00004_00009,timetable_00004_00010,timetable_00005_00007,timetable_00005_00008,timetable_00005_00009,timetable_00005_00010,total_time,aux0,aux1,aux2,aux3,aux4,aux5,aux6,aux7,aux8]
+**CONSTRAINTS**
+reify(w-literal(timetable_00003_00007,1), aux6)
+reify(w-literal(timetable_00003_00008,1), aux7)
+reify(w-literal(timetable_00003_00009,1), aux8)
+reify(ineq(9, total_time, -1), aux3)
+reify(ineq(10, total_time, -1), aux4)
+sumgeq([timetable_00003_00005,timetable_00004_00005],1)
+sumgeq([timetable_00003_00006,timetable_00004_00006],1)
+reifyimply(ineq(1, aux0, 0), aux3)
+reifyimply(ineq(1, aux5, 0), aux4)
+watched-or({watched-and({w-literal(timetable_00003_00006,0),w-literal(timetable_00003_00007,0),w-literal(timetable_00003_00008,0),w-literal(timetable_00003_00009,0)}),diseq(timetable_00003_00005,1),diseq(timetable_00003_00006,0)})
+watched-or({watched-and({w-literal(timetable_00003_00007,0),w-literal(timetable_00003_00008,0),w-literal(timetable_00003_00009,0)}),diseq(timetable_00003_00006,1),diseq(timetable_00003_00007,0)})
+watched-or({watched-and({w-literal(timetable_00003_00008,0),w-literal(timetable_00003_00009,0)}),diseq(timetable_00003_00007,1),diseq(timetable_00003_00008,0)})
+watched-or({w-literal(timetable_00003_00009,0),diseq(timetable_00003_00008,1),diseq(timetable_00003_00009,0)})
+watched-or({diseq(timetable_00004_00005,1),diseq(timetable_00004_00006,0),watched-and({w-literal(timetable_00004_00006,0),w-literal(timetable_00004_00007,0),w-literal(timetable_00004_00008,0),w-literal(timetable_00004_00009,0),w-literal(timetable_00004_00010,0)})})
+watched-or({diseq(timetable_00004_00006,1),diseq(timetable_00004_00007,0),watched-and({w-literal(timetable_00004_00007,0),w-literal(timetable_00004_00008,0),w-literal(timetable_00004_00009,0),w-literal(timetable_00004_00010,0)})})
+watched-or({diseq(timetable_00004_00007,1),diseq(timetable_00004_00008,0),watched-and({w-literal(timetable_00004_00008,0),w-literal(timetable_00004_00009,0),w-literal(timetable_00004_00010,0)})})
+watched-or({diseq(timetable_00004_00008,1),diseq(timetable_00004_00009,0),watched-and({w-literal(timetable_00004_00009,0),w-literal(timetable_00004_00010,0)})})
+watched-or({diseq(timetable_00004_00009,1),diseq(timetable_00004_00010,0),w-literal(timetable_00004_00010,0)})
+watched-or({diseq(0,timetable_00005_00008),diseq(1,timetable_00005_00007),watched-and({w-literal(timetable_00005_00008,0),w-literal(timetable_00005_00009,0),w-literal(timetable_00005_00010,0)})})
+watched-or({diseq(0,timetable_00005_00009),diseq(1,timetable_00005_00008),watched-and({w-literal(timetable_00005_00009,0),w-literal(timetable_00005_00010,0)})})
+watched-or({diseq(0,timetable_00005_00010),diseq(1,timetable_00005_00009),w-literal(timetable_00005_00010,0)})
+product(timetable_00003_00007, timetable_00005_00007, 0)
+product(timetable_00003_00008, timetable_00005_00008, 0)
+product(timetable_00003_00009, timetable_00005_00009, 0)
+reifyimply(w-literal(timetable_00005_00007,0), aux6)
+reifyimply(sumleq([timetable_00005_00007,timetable_00005_00008],0), aux7)
+reifyimply(sumleq([timetable_00005_00007,timetable_00005_00008,timetable_00005_00009],0), aux8)
+reifyimply(w-literal(aux0,0), !aux3)
+reifyimply(w-literal(aux5,0), !aux4)
+sumleq([timetable_00003_00009,timetable_00004_00009,timetable_00005_00009],aux0)
+sumgeq([timetable_00003_00009,timetable_00004_00009,timetable_00005_00009],aux0)
+sumleq([timetable_00003_00007,timetable_00004_00007,timetable_00005_00007],aux1)
+sumgeq([timetable_00003_00007,timetable_00004_00007,timetable_00005_00007],aux1)
+sumleq([timetable_00003_00008,timetable_00004_00008,timetable_00005_00008],aux2)
+sumgeq([timetable_00003_00008,timetable_00004_00008,timetable_00005_00008],aux2)
+sumleq([timetable_00004_00010,timetable_00005_00010],aux5)
+sumgeq([timetable_00004_00010,timetable_00005_00010],aux5)
+sumleq([timetable_00003_00005,timetable_00003_00006,timetable_00003_00007,timetable_00003_00008,timetable_00003_00009],2)
+sumgeq([timetable_00003_00005,timetable_00003_00006,timetable_00003_00007,timetable_00003_00008,timetable_00003_00009],2)
+sumleq([timetable_00004_00005,timetable_00004_00006,timetable_00004_00007,timetable_00004_00008,timetable_00004_00009,timetable_00004_00010],4)
+sumgeq([timetable_00004_00005,timetable_00004_00006,timetable_00004_00007,timetable_00004_00008,timetable_00004_00009,timetable_00004_00010],4)
+sumleq([timetable_00005_00007,timetable_00005_00008,timetable_00005_00009,timetable_00005_00010],1)
+sumgeq([timetable_00005_00007,timetable_00005_00008,timetable_00005_00009,timetable_00005_00010],1)
+**EOF**

@@ -1,0 +1,52 @@
+language ESSENCE' 1.0
+
+$ Parameters
+given n_surgeons: int 
+given n_op: int 
+given n_specialities: int
+given duration: matrix indexed by [int(1..n_op)] of int 
+given available_personnel: matrix indexed by [int(1..n_specialities)] of int
+given manning: matrix indexed by [int(1..n_op), int(1..n_specialities)] of int
+given n_ordering_relations: int
+given order: matrix indexed by [int(1..n_ordering_relations), int(1..2)] of int 
+
+$ Constant
+letting MAX_TIME be 1000
+
+$ Decision Variables
+find op_schedule: matrix indexed by [int(1..n_op), int(1..2)] of int(1..MAX_TIME)
+find timetable: matrix indexed by [int(1..n_op), int(1..MAX_TIME)] of int(0..1)
+find total_time: int(1..MAX_TIME)
+
+$ Optimisation Function
+minimising total_time
+
+$ Constraints
+such that 
+    $ the total time needs to be equal to the time the last operation ends
+    max([op_schedule[op, 2] | op : int(1..n_op)]) = total_time,
+
+    $ each operation needs to be completed within the given duration 
+    forAll op : int(1..n_op) .
+        op_schedule[op, 2] - op_schedule[op, 1] = duration[op],
+
+    $ all the operations need to happen in the given order
+    forAll pair : int(1..n_ordering_relations) .
+        op_schedule[order[pair, 1], 2] <= op_schedule[order[pair, 2], 1],
+
+    $ channeling constraint to match op_schedule and timetable
+    forAll op : int(1..n_op) .
+        forAll time : int(1..sum(duration)) .
+            time >= op_schedule[op, 1] /\ time < op_schedule[op, 2] -> timetable[op, time] = 1,
+    forAll op : int(1..n_op) .
+        forAll time : int(1..sum(duration)) .
+            time < op_schedule[op, 1] /\ time >= op_schedule[op, 2] -> timetable[op, time] = 0,
+
+    $ all surgeons should only be managing one operation at a given time
+    forAll col : int(1..sum(duration)) .
+        sum([timetable[row, col] | row : int(1..n_op)]) <= n_surgeons,
+
+    $ the number of required personnel for all the operations happening at a given time should not exceed the number of availabe personnel
+    forAll col : int(1..sum(duration)) .
+        forAll staff : int(1..n_specialities) .
+            sum([manning[row, staff] * timetable[row, col] | row : int(1..n_op)]) <= available_personnel[staff]

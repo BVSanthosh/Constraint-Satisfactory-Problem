@@ -1,0 +1,1065 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 102
+# CSE_active_eliminated_expressions = 228
+# CSE_active_total_size = 606
+**VARIABLES**
+DISCRETE timetable_00002_00001 #
+{0..1}
+DISCRETE timetable_00002_00002 #
+{0..1}
+DISCRETE timetable_00002_00003 #
+{0..1}
+DISCRETE timetable_00002_00004 #
+{0..1}
+DISCRETE timetable_00002_00005 #
+{0..1}
+DISCRETE timetable_00002_00006 #
+{0..1}
+DISCRETE timetable_00002_00007 #
+{0..1}
+DISCRETE timetable_00002_00008 #
+{0..1}
+DISCRETE timetable_00002_00009 #
+{0..1}
+DISCRETE timetable_00002_00010 #
+{0..1}
+DISCRETE timetable_00002_00011 #
+{0..1}
+DISCRETE timetable_00002_00012 #
+{0..1}
+DISCRETE timetable_00002_00013 #
+{0..1}
+DISCRETE timetable_00002_00014 #
+{0..1}
+DISCRETE timetable_00002_00015 #
+{0..1}
+DISCRETE timetable_00002_00016 #
+{0..1}
+DISCRETE timetable_00002_00017 #
+{0..1}
+DISCRETE timetable_00003_00001 #
+{0..1}
+DISCRETE timetable_00003_00002 #
+{0..1}
+DISCRETE timetable_00003_00003 #
+{0..1}
+DISCRETE timetable_00003_00004 #
+{0..1}
+DISCRETE timetable_00003_00005 #
+{0..1}
+DISCRETE timetable_00003_00006 #
+{0..1}
+DISCRETE timetable_00003_00007 #
+{0..1}
+DISCRETE timetable_00003_00008 #
+{0..1}
+DISCRETE timetable_00003_00009 #
+{0..1}
+DISCRETE timetable_00003_00010 #
+{0..1}
+DISCRETE timetable_00004_00001 #
+{0..1}
+DISCRETE timetable_00004_00002 #
+{0..1}
+DISCRETE timetable_00004_00003 #
+{0..1}
+DISCRETE timetable_00004_00004 #
+{0..1}
+DISCRETE timetable_00004_00005 #
+{0..1}
+DISCRETE timetable_00004_00006 #
+{0..1}
+DISCRETE timetable_00004_00007 #
+{0..1}
+DISCRETE timetable_00004_00008 #
+{0..1}
+DISCRETE timetable_00004_00009 #
+{0..1}
+DISCRETE timetable_00004_00010 #
+{0..1}
+DISCRETE timetable_00004_00011 #
+{0..1}
+DISCRETE timetable_00004_00012 #
+{0..1}
+DISCRETE timetable_00004_00013 #
+{0..1}
+DISCRETE timetable_00004_00014 #
+{0..1}
+DISCRETE timetable_00004_00015 #
+{0..1}
+DISCRETE timetable_00004_00016 #
+{0..1}
+DISCRETE timetable_00004_00017 #
+{0..1}
+DISCRETE timetable_00005_00002 #
+{0..1}
+DISCRETE timetable_00005_00003 #
+{0..1}
+DISCRETE timetable_00005_00004 #
+{0..1}
+DISCRETE timetable_00005_00005 #
+{0..1}
+DISCRETE timetable_00005_00006 #
+{0..1}
+DISCRETE timetable_00005_00007 #
+{0..1}
+DISCRETE timetable_00005_00008 #
+{0..1}
+DISCRETE timetable_00005_00009 #
+{0..1}
+DISCRETE timetable_00005_00010 #
+{0..1}
+DISCRETE timetable_00005_00011 #
+{0..1}
+DISCRETE timetable_00005_00012 #
+{0..1}
+DISCRETE timetable_00005_00013 #
+{0..1}
+DISCRETE timetable_00005_00014 #
+{0..1}
+DISCRETE timetable_00005_00015 #
+{0..1}
+DISCRETE timetable_00005_00016 #
+{0..1}
+DISCRETE timetable_00005_00017 #
+{0..1}
+DISCRETE timetable_00005_00018 #
+{0..1}
+DISCRETE timetable_00006_00002 #
+{0..1}
+DISCRETE timetable_00006_00003 #
+{0..1}
+DISCRETE timetable_00006_00004 #
+{0..1}
+DISCRETE timetable_00006_00005 #
+{0..1}
+DISCRETE timetable_00006_00006 #
+{0..1}
+DISCRETE timetable_00006_00007 #
+{0..1}
+DISCRETE timetable_00006_00008 #
+{0..1}
+DISCRETE timetable_00006_00009 #
+{0..1}
+DISCRETE timetable_00006_00010 #
+{0..1}
+DISCRETE timetable_00006_00011 #
+{0..1}
+DISCRETE timetable_00006_00012 #
+{0..1}
+DISCRETE timetable_00006_00013 #
+{0..1}
+DISCRETE timetable_00007_00005 #
+{0..1}
+DISCRETE timetable_00007_00006 #
+{0..1}
+DISCRETE timetable_00007_00007 #
+{0..1}
+DISCRETE timetable_00007_00008 #
+{0..1}
+DISCRETE timetable_00007_00009 #
+{0..1}
+DISCRETE timetable_00007_00010 #
+{0..1}
+DISCRETE timetable_00007_00011 #
+{0..1}
+DISCRETE timetable_00007_00012 #
+{0..1}
+DISCRETE timetable_00007_00013 #
+{0..1}
+DISCRETE timetable_00007_00014 #
+{0..1}
+DISCRETE timetable_00007_00015 #
+{0..1}
+DISCRETE timetable_00007_00016 #
+{0..1}
+DISCRETE timetable_00007_00017 #
+{0..1}
+DISCRETE timetable_00007_00018 #
+{0..1}
+DISCRETE timetable_00008_00006 #
+{0..1}
+DISCRETE timetable_00008_00007 #
+{0..1}
+DISCRETE timetable_00008_00008 #
+{0..1}
+DISCRETE timetable_00008_00009 #
+{0..1}
+DISCRETE timetable_00008_00010 #
+{0..1}
+DISCRETE timetable_00008_00011 #
+{0..1}
+DISCRETE timetable_00008_00012 #
+{0..1}
+DISCRETE timetable_00008_00013 #
+{0..1}
+DISCRETE timetable_00008_00014 #
+{0..1}
+DISCRETE timetable_00008_00015 #
+{0..1}
+DISCRETE timetable_00008_00016 #
+{0..1}
+DISCRETE timetable_00008_00017 #
+{0..1}
+DISCRETE timetable_00008_00018 #
+{0..1}
+DISCRETE timetable_00009_00010 #
+{0..1}
+DISCRETE timetable_00009_00011 #
+{0..1}
+DISCRETE timetable_00009_00012 #
+{0..1}
+DISCRETE timetable_00009_00013 #
+{0..1}
+DISCRETE timetable_00009_00014 #
+{0..1}
+DISCRETE timetable_00009_00015 #
+{0..1}
+DISCRETE timetable_00009_00016 #
+{0..1}
+DISCRETE timetable_00009_00017 #
+{0..1}
+DISCRETE timetable_00009_00018 #
+{0..1}
+DISCRETE timetable_00009_00019 #
+{0..1}
+DISCRETE timetable_00009_00020 #
+{0..1}
+DISCRETE timetable_00010_00009 #
+{0..1}
+DISCRETE timetable_00010_00010 #
+{0..1}
+DISCRETE timetable_00010_00011 #
+{0..1}
+DISCRETE timetable_00010_00012 #
+{0..1}
+DISCRETE timetable_00010_00013 #
+{0..1}
+DISCRETE timetable_00010_00014 #
+{0..1}
+DISCRETE timetable_00010_00015 #
+{0..1}
+DISCRETE timetable_00010_00016 #
+{0..1}
+DISCRETE timetable_00010_00017 #
+{0..1}
+DISCRETE timetable_00010_00018 #
+{0..1}
+DISCRETE timetable_00010_00019 #
+{0..1}
+DISCRETE timetable_00010_00020 #
+{0..1}
+DISCRETE timetable_00011_00006 #
+{0..1}
+DISCRETE timetable_00011_00007 #
+{0..1}
+DISCRETE timetable_00011_00008 #
+{0..1}
+DISCRETE timetable_00011_00009 #
+{0..1}
+DISCRETE timetable_00011_00010 #
+{0..1}
+DISCRETE timetable_00011_00011 #
+{0..1}
+DISCRETE timetable_00011_00012 #
+{0..1}
+DISCRETE timetable_00011_00013 #
+{0..1}
+DISCRETE timetable_00011_00014 #
+{0..1}
+DISCRETE timetable_00011_00015 #
+{0..1}
+DISCRETE timetable_00011_00016 #
+{0..1}
+DISCRETE timetable_00011_00017 #
+{0..1}
+DISCRETE timetable_00011_00018 #
+{0..1}
+DISCRETE timetable_00011_00019 #
+{0..1}
+DISCRETE timetable_00011_00020 #
+{0..1}
+DISCRETE total_time #
+{12..21}
+BOOL aux2 #Active-CSE: 2 occurrences of this expression or equivalent: ((timetable_00010_00009 + timetable_00010_00010 + timetable_00010_00011 + timetable_00010_00012 + timetable_00010_00013 + timetable_00010_00014 + timetable_00010_00015 + timetable_00010_00016 + timetable_00010_00017 + timetable_00010_00018)=0)
+BOOL aux4 #Active-CSE: 2 occurrences of this expression or equivalent: ((timetable_00010_00009 + timetable_00010_00010 + timetable_00010_00011 + timetable_00010_00012 + timetable_00010_00013 + timetable_00010_00014 + timetable_00010_00015 + timetable_00010_00016 + timetable_00010_00017)=0)
+BOOL aux5 #Active-CSE: 3 occurrences of this expression or equivalent: ((timetable_00009_00010 + timetable_00009_00011 + timetable_00009_00012 + timetable_00009_00013 + timetable_00009_00014 + timetable_00009_00015 + timetable_00009_00016 + timetable_00009_00017 + timetable_00009_00018)=0)
+BOOL aux6 #Active-CSE: 2 occurrences of this expression or equivalent: ((timetable_00011_00006 + timetable_00011_00007 + timetable_00011_00008 + timetable_00011_00009 + timetable_00011_00010 + timetable_00011_00011 + timetable_00011_00012 + timetable_00011_00013)=0)
+BOOL aux7 #Active-CSE: 2 occurrences of this expression or equivalent: (0=(timetable_00008_00006 + timetable_00008_00007 + timetable_00008_00008 + timetable_00008_00009 + timetable_00008_00010 + timetable_00008_00011 + timetable_00008_00012 + timetable_00008_00013))
+DISCRETE aux8 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00010 + timetable_00011_00010 + timetable_00003_00010 + timetable_00008_00010 + timetable_00004_00010 + timetable_00009_00010 + timetable_00005_00010 + timetable_00006_00010 + timetable_00010_00010 + timetable_00002_00010)
+{1..4}
+BOOL aux9 #Active-CSE: 3 occurrences of this expression or equivalent: (0=(timetable_00009_00010 + timetable_00009_00011 + timetable_00009_00012 + timetable_00009_00013 + timetable_00009_00014 + timetable_00009_00015 + timetable_00009_00016 + timetable_00009_00017))
+BOOL aux10 #Active-CSE: 2 occurrences of this expression or equivalent: ((timetable_00010_00009 + timetable_00010_00010 + timetable_00010_00011 + timetable_00010_00012 + timetable_00010_00013 + timetable_00010_00014 + timetable_00010_00015 + timetable_00010_00016)=0)
+BOOL aux11 #Active-CSE: 2 occurrences of this expression or equivalent: (0=(timetable_00011_00006 + timetable_00011_00007 + timetable_00011_00008 + timetable_00011_00009 + timetable_00011_00010 + timetable_00011_00011 + timetable_00011_00012))
+BOOL aux12 #Active-CSE: 3 occurrences of this expression or equivalent: ((timetable_00009_00010 + timetable_00009_00011 + timetable_00009_00012 + timetable_00009_00013 + timetable_00009_00014 + timetable_00009_00015 + timetable_00009_00016)=0)
+DISCRETE aux13 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00009 + timetable_00011_00009 + timetable_00003_00009 + timetable_00008_00009 + timetable_00004_00009 + timetable_00005_00009 + timetable_00006_00009 + timetable_00010_00009 + timetable_00002_00009)
+{1..4}
+DISCRETE aux14 #Active-CSE: 3 occurrences of this expression or equivalent: (timetable_00007_00013 + timetable_00011_00013 + timetable_00008_00013 + timetable_00004_00013 + timetable_00009_00013 + timetable_00005_00013 + timetable_00006_00013 + timetable_00010_00013 + timetable_00002_00013)
+{0..4}
+DISCRETE aux15 #Active-CSE: 3 occurrences of this expression or equivalent: (timetable_00007_00012 + timetable_00011_00012 + timetable_00008_00012 + timetable_00004_00012 + timetable_00009_00012 + timetable_00005_00012 + timetable_00006_00012 + timetable_00010_00012 + timetable_00002_00012)
+{0..4}
+BOOL aux16 #Active-CSE: 2 occurrences of this expression or equivalent: ((timetable_00008_00006 + timetable_00008_00007 + timetable_00008_00008 + timetable_00008_00009 + timetable_00008_00010 + timetable_00008_00011 + timetable_00008_00012)=0)
+BOOL aux17 #Active-CSE: 2 occurrences of this expression or equivalent: (0=(timetable_00010_00009 + timetable_00010_00010 + timetable_00010_00011 + timetable_00010_00012 + timetable_00010_00013 + timetable_00010_00014 + timetable_00010_00015))
+DISCRETE aux18 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00011 + timetable_00011_00011 + timetable_00008_00011 + timetable_00004_00011 + timetable_00009_00011 + timetable_00005_00011 + timetable_00006_00011 + timetable_00010_00011 + timetable_00002_00011)
+{1..4}
+BOOL aux19 #Active-CSE: 2 occurrences of this expression or equivalent: (0=(timetable_00010_00009 + timetable_00010_00010 + timetable_00010_00011 + timetable_00010_00012 + timetable_00010_00013 + timetable_00010_00014))
+DISCRETE aux20 #Active-CSE: 3 occurrences of this expression or equivalent: (timetable_00007_00017 + timetable_00011_00017 + timetable_00008_00017 + timetable_00004_00017 + timetable_00009_00017 + timetable_00005_00017 + timetable_00010_00017 + timetable_00002_00017)
+{0..4}
+DISCRETE aux21 #Active-CSE: 3 occurrences of this expression or equivalent: (timetable_00007_00016 + timetable_00011_00016 + timetable_00008_00016 + timetable_00004_00016 + timetable_00009_00016 + timetable_00005_00016 + timetable_00010_00016 + timetable_00002_00016)
+{0..4}
+DISCRETE aux22 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00008 + timetable_00011_00008 + timetable_00003_00008 + timetable_00008_00008 + timetable_00004_00008 + timetable_00005_00008 + timetable_00006_00008 + timetable_00002_00008)
+{1..4}
+DISCRETE aux23 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00006 + timetable_00011_00006 + timetable_00003_00006 + timetable_00008_00006 + timetable_00004_00006 + timetable_00005_00006 + timetable_00006_00006 + timetable_00002_00006)
+{1..4}
+DISCRETE aux24 #Active-CSE: 3 occurrences of this expression or equivalent: (timetable_00007_00014 + timetable_00011_00014 + timetable_00008_00014 + timetable_00004_00014 + timetable_00009_00014 + timetable_00005_00014 + timetable_00010_00014 + timetable_00002_00014)
+{0..4}
+BOOL aux25 #Active-CSE: 2 occurrences of this expression or equivalent: ((timetable_00008_00006 + timetable_00008_00007 + timetable_00008_00008 + timetable_00008_00009 + timetable_00008_00010 + timetable_00008_00011)=0)
+BOOL aux26 #Active-CSE: 3 occurrences of this expression or equivalent: ((timetable_00009_00010 + timetable_00009_00011 + timetable_00009_00012 + timetable_00009_00013 + timetable_00009_00014 + timetable_00009_00015)=0)
+DISCRETE aux27 #Active-CSE: 3 occurrences of this expression or equivalent: (timetable_00007_00015 + timetable_00011_00015 + timetable_00008_00015 + timetable_00004_00015 + timetable_00009_00015 + timetable_00005_00015 + timetable_00010_00015 + timetable_00002_00015)
+{0..4}
+DISCRETE aux28 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00007 + timetable_00011_00007 + timetable_00003_00007 + timetable_00008_00007 + timetable_00004_00007 + timetable_00005_00007 + timetable_00006_00007 + timetable_00002_00007)
+{1..4}
+BOOL aux29 #Active-CSE: 2 occurrences of this expression or equivalent: (0=(timetable_00011_00006 + timetable_00011_00007 + timetable_00011_00008 + timetable_00011_00009 + timetable_00011_00010 + timetable_00011_00011))
+BOOL aux30 #Active-CSE: 2 occurrences of this expression or equivalent: ((timetable_00011_00006 + timetable_00011_00007 + timetable_00011_00008 + timetable_00011_00009 + timetable_00011_00010)=0)
+BOOL aux31 #Active-CSE: 2 occurrences of this expression or equivalent: (0=(timetable_00008_00006 + timetable_00008_00007 + timetable_00008_00008 + timetable_00008_00009 + timetable_00008_00010))
+BOOL aux32 #Active-CSE: 2 occurrences of this expression or equivalent: ((timetable_00010_00009 + timetable_00010_00010 + timetable_00010_00011 + timetable_00010_00012 + timetable_00010_00013)=0)
+BOOL aux33 #Active-CSE: 3 occurrences of this expression or equivalent: ((timetable_00009_00010 + timetable_00009_00011 + timetable_00009_00012 + timetable_00009_00013 + timetable_00009_00014)=0)
+DISCRETE aux34 #Active-CSE: 3 occurrences of this expression or equivalent: (timetable_00007_00018 + timetable_00011_00018 + timetable_00008_00018 + timetable_00009_00018 + timetable_00005_00018 + timetable_00010_00018)
+{0..4}
+BOOL aux35 #Active-CSE: 3 occurrences of this expression or equivalent: ((timetable_00009_00010 + timetable_00009_00011 + timetable_00009_00012 + timetable_00009_00013)=0)
+BOOL aux36 #Active-CSE: 2 occurrences of this expression or equivalent: ((timetable_00011_00006 + timetable_00011_00007 + timetable_00011_00008 + timetable_00011_00009)=0)
+DISCRETE aux37 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00005 + timetable_00003_00005 + timetable_00004_00005 + timetable_00005_00005 + timetable_00006_00005 + timetable_00002_00005)
+{1..4}
+BOOL aux38 #Active-CSE: 2 occurrences of this expression or equivalent: (0=(timetable_00008_00006 + timetable_00008_00007 + timetable_00008_00008 + timetable_00008_00009))
+BOOL aux39 #Active-CSE: 2 occurrences of this expression or equivalent: ((timetable_00010_00009 + timetable_00010_00010 + timetable_00010_00011 + timetable_00010_00012)=0)
+BOOL aux40 #Active-CSE: 2 occurrences of this expression or equivalent: ((timetable_00010_00009 + timetable_00010_00010 + timetable_00010_00011)=0)
+BOOL aux41 #Active-CSE: 2 occurrences of this expression or equivalent: (0=(timetable_00011_00006 + timetable_00011_00007 + timetable_00011_00008))
+BOOL aux42 #Active-CSE: 2 occurrences of this expression or equivalent: (0=(timetable_00008_00006 + timetable_00008_00007 + timetable_00008_00008))
+BOOL aux43 #Active-CSE: 3 occurrences of this expression or equivalent: ((timetable_00009_00010 + timetable_00009_00011 + timetable_00009_00012)=0)
+DISCRETE aux44 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00003_00004 + timetable_00004_00004 + timetable_00005_00004 + timetable_00006_00004 + timetable_00002_00004)
+{1..4}
+DISCRETE aux45 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00003_00003 + timetable_00004_00003 + timetable_00005_00003 + timetable_00006_00003 + timetable_00002_00003)
+{1..4}
+DISCRETE aux46 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00003_00002 + timetable_00004_00002 + timetable_00005_00002 + timetable_00006_00002 + timetable_00002_00002)
+{1..4}
+BOOL aux47 #Active-CSE: 2 occurrences of this expression or equivalent: ((timetable_00010_00009 + timetable_00010_00010)=0)
+BOOL aux48 #Active-CSE: 2 occurrences of this expression or equivalent: (0=(timetable_00011_00006 + timetable_00011_00007))
+BOOL aux49 #Active-CSE: 3 occurrences of this expression or equivalent: (0=(timetable_00009_00010 + timetable_00009_00011))
+BOOL aux50 #Active-CSE: 2 occurrences of this expression or equivalent: ((timetable_00008_00006 + timetable_00008_00007)=0)
+DISCRETE aux51 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00011_00020 + timetable_00009_00020 + timetable_00010_00020)
+{0..3}
+DISCRETE aux52 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00011_00019 + timetable_00009_00019 + timetable_00010_00019)
+{0..3}
+BOOL aux54 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00018=1)
+BOOL aux55 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00015=1)
+BOOL aux56 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00014=1)
+BOOL aux57 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00017=1)
+BOOL aux58 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00016=1)
+BOOL aux59 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00010=1)
+BOOL aux60 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00011=1)
+BOOL aux61 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00013=1)
+BOOL aux62 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00007_00012=1)
+BOOL aux63 #Active-CSE: 3 occurrences of this expression or equivalent: (1=timetable_00006_00013)
+BOOL aux64 #Active-CSE: 3 occurrences of this expression or equivalent: (1=timetable_00006_00012)
+BOOL aux65 #Active-CSE: 3 occurrences of this expression or equivalent: (1=timetable_00006_00011)
+BOOL aux66 #Active-CSE: 3 occurrences of this expression or equivalent: (1=timetable_00006_00010)
+BOOL aux67 #Active-CSE: 3 occurrences of this expression or equivalent: (1=timetable_00006_00009)
+BOOL aux68 #Active-CSE: 3 occurrences of this expression or equivalent: (1=timetable_00006_00008)
+BOOL aux69 #Active-CSE: 3 occurrences of this expression or equivalent: (1=timetable_00006_00007)
+BOOL aux70 #Active-CSE: 3 occurrences of this expression or equivalent: (1=timetable_00006_00006)
+BOOL aux71 #Active-CSE: 3 occurrences of this expression or equivalent: (timetable_00009_00010=0)
+BOOL aux72 #Active-CSE: 2 occurrences of this expression or equivalent: (17<total_time)
+BOOL aux73 #Active-CSE: 2 occurrences of this expression or equivalent: (19<total_time)
+BOOL aux74 #Active-CSE: 2 occurrences of this expression or equivalent: (13<total_time)
+BOOL aux75 #Active-CSE: 2 occurrences of this expression or equivalent: (15<total_time)
+BOOL aux76 #Active-CSE: 2 occurrences of this expression or equivalent: (18<total_time)
+BOOL aux77 #Active-CSE: 2 occurrences of this expression or equivalent: (14<total_time)
+BOOL aux78 #Active-CSE: 2 occurrences of this expression or equivalent: (total_time<=12)
+BOOL aux79 #Active-CSE: 2 occurrences of this expression or equivalent: (total_time<=16)
+BOOL aux80 #Active-CSE: 2 occurrences of this expression or equivalent: (total_time<=20)
+BOOL aux81 #Active-CSE: 2 occurrences of this expression or equivalent: (0=timetable_00010_00009)
+BOOL aux82 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00011_00006=0)
+BOOL aux83 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00008_00006=0)
+BOOL aux84 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00003_00010=1)
+BOOL aux85 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00003_00009=1)
+BOOL aux86 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00003_00008=1)
+BOOL aux87 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00003_00007=1)
+BOOL aux88 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00003_00006=1)
+BOOL aux89 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00003_00005=1)
+BOOL aux90 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00003_00004=1)
+BOOL aux91 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00003_00003=1)
+BOOL aux92 #Active-CSE: 2 occurrences of this expression or equivalent: (timetable_00003_00002=1)
+BOOL aux93 #Active-CSE: 2 occurrences of this expression or equivalent: (1=timetable_00005_00014)
+BOOL aux94 #Active-CSE: 2 occurrences of this expression or equivalent: (1=timetable_00005_00015)
+BOOL aux95 #Active-CSE: 2 occurrences of this expression or equivalent: (1=timetable_00005_00012)
+BOOL aux96 #Active-CSE: 2 occurrences of this expression or equivalent: (1=timetable_00005_00013)
+BOOL aux97 #Active-CSE: 2 occurrences of this expression or equivalent: (1=timetable_00005_00018)
+BOOL aux98 #Active-CSE: 2 occurrences of this expression or equivalent: (1=timetable_00005_00016)
+BOOL aux99 #Active-CSE: 2 occurrences of this expression or equivalent: (1=timetable_00005_00017)
+BOOL aux100 #Active-CSE: 2 occurrences of this expression or equivalent: (1=timetable_00005_00010)
+BOOL aux101 #Active-CSE: 2 occurrences of this expression or equivalent: (1=timetable_00005_00011)
+BOOL aux102 #(1=timetable_00002_00006)
+BOOL aux103 #(1=timetable_00002_00007)
+BOOL aux104 #(1=timetable_00002_00008)
+BOOL aux105 #(1=timetable_00002_00009)
+BOOL aux106 #(1=timetable_00002_00010)
+BOOL aux107 #(1=timetable_00002_00011)
+BOOL aux108 #(1=timetable_00002_00012)
+BOOL aux109 #(1=timetable_00002_00013)
+BOOL aux110 #(1=timetable_00002_00014)
+BOOL aux111 #(1=timetable_00002_00015)
+BOOL aux112 #(1=timetable_00002_00016)
+BOOL aux113 #(1=timetable_00002_00017)
+BOOL aux114 #(timetable_00004_00006=1)
+BOOL aux115 #(timetable_00004_00007=1)
+BOOL aux116 #(timetable_00004_00008=1)
+BOOL aux117 #(timetable_00004_00009=1)
+BOOL aux118 #(timetable_00004_00010=1)
+BOOL aux119 #(timetable_00004_00011=1)
+BOOL aux120 #(timetable_00004_00012=1)
+BOOL aux121 #(timetable_00004_00013=1)
+BOOL aux122 #(timetable_00004_00014=1)
+BOOL aux123 #(timetable_00004_00015=1)
+BOOL aux124 #(timetable_00004_00016=1)
+BOOL aux125 #(timetable_00004_00017=1)
+BOOL aux126 #(1=timetable_00005_00009)
+BOOL aux127 #(1=timetable_00006_00005)
+BOOL aux128 #(timetable_00007_00009=1)
+BOOL aux129 #(timetable_00008_00010=1)
+BOOL aux130 #(timetable_00008_00011=1)
+BOOL aux131 #(timetable_00008_00012=1)
+BOOL aux132 #(timetable_00008_00013=1)
+BOOL aux133 #(timetable_00008_00014=1)
+BOOL aux134 #(timetable_00008_00015=1)
+BOOL aux135 #(timetable_00008_00016=1)
+BOOL aux136 #(timetable_00008_00017=1)
+BOOL aux137 #(timetable_00008_00018=1)
+**VARIABLES**
+ALIAS duration[12]=[0, 3, 1, 2, 1, 3, 4, 1, 2, 1, 3, 0]
+**TUPLELIST**
+manning 12 4
+0 0 0 0 
+0 6 0 7 
+0 4 4 0 
+0 6 0 9 
+5 0 0 6 
+0 5 0 4 
+0 9 0 3 
+0 6 8 0 
+10 0 0 8 
+0 6 7 0 
+0 4 8 0 
+0 0 0 0 
+**VARIABLES**
+ALIAS manning[12,4]=[[0, 0, 0, 0], [0, 6, 0, 7], [0, 4, 4, 0], [0, 6, 0, 9], [5, 0, 0, 6], [0, 5, 0, 4], [0, 9, 0, 3], [0, 6, 8, 0], [10, 0, 0, 8], [0, 6, 7, 0], [0, 4, 8, 0], [0, 0, 0, 0]]
+**VARIABLES**
+ALIAS available_personnel[4]=[10, 9, 33, 42]
+**TUPLELIST**
+order 18 2
+1 2 
+1 3 
+1 4 
+2 11 
+3 5 
+3 6 
+4 8 
+5 9 
+5 10 
+6 7 
+6 8 
+6 11 
+7 9 
+7 10 
+8 9 
+9 12 
+10 12 
+11 12 
+**VARIABLES**
+ALIAS order[18,2]=[[1, 2], [1, 3], [1, 4], [2, 11], [3, 5], [3, 6], [4, 8], [5, 9], [5, 10], [6, 7], [6, 8], [6, 11], [7, 9], [7, 10], [8, 9], [9, 12], [10, 12], [11, 12]]
+**SEARCH**
+PRINT[[timetable_00002_00001],[timetable_00002_00002],[timetable_00002_00003],[timetable_00002_00004],[timetable_00002_00005],[timetable_00002_00006],[timetable_00002_00007],[timetable_00002_00008],[timetable_00002_00009],[timetable_00002_00010],[timetable_00002_00011],[timetable_00002_00012],[timetable_00002_00013],[timetable_00002_00014],[timetable_00002_00015],[timetable_00002_00016],[timetable_00002_00017],[timetable_00003_00001],[timetable_00003_00002],[timetable_00003_00003],[timetable_00003_00004],[timetable_00003_00005],[timetable_00003_00006],[timetable_00003_00007],[timetable_00003_00008],[timetable_00003_00009],[timetable_00003_00010],[timetable_00004_00001],[timetable_00004_00002],[timetable_00004_00003],[timetable_00004_00004],[timetable_00004_00005],[timetable_00004_00006],[timetable_00004_00007],[timetable_00004_00008],[timetable_00004_00009],[timetable_00004_00010],[timetable_00004_00011],[timetable_00004_00012],[timetable_00004_00013],[timetable_00004_00014],[timetable_00004_00015],[timetable_00004_00016],[timetable_00004_00017],[timetable_00005_00002],[timetable_00005_00003],[timetable_00005_00004],[timetable_00005_00005],[timetable_00005_00006],[timetable_00005_00007],[timetable_00005_00008],[timetable_00005_00009],[timetable_00005_00010],[timetable_00005_00011],[timetable_00005_00012],[timetable_00005_00013],[timetable_00005_00014],[timetable_00005_00015],[timetable_00005_00016],[timetable_00005_00017],[timetable_00005_00018],[timetable_00006_00002],[timetable_00006_00003],[timetable_00006_00004],[timetable_00006_00005],[timetable_00006_00006],[timetable_00006_00007],[timetable_00006_00008],[timetable_00006_00009],[timetable_00006_00010],[timetable_00006_00011],[timetable_00006_00012],[timetable_00006_00013],[timetable_00007_00005],[timetable_00007_00006],[timetable_00007_00007],[timetable_00007_00008],[timetable_00007_00009],[timetable_00007_00010],[timetable_00007_00011],[timetable_00007_00012],[timetable_00007_00013],[timetable_00007_00014],[timetable_00007_00015],[timetable_00007_00016],[timetable_00007_00017],[timetable_00007_00018],[timetable_00008_00006],[timetable_00008_00007],[timetable_00008_00008],[timetable_00008_00009],[timetable_00008_00010],[timetable_00008_00011],[timetable_00008_00012],[timetable_00008_00013],[timetable_00008_00014],[timetable_00008_00015],[timetable_00008_00016],[timetable_00008_00017],[timetable_00008_00018],[timetable_00009_00010],[timetable_00009_00011],[timetable_00009_00012],[timetable_00009_00013],[timetable_00009_00014],[timetable_00009_00015],[timetable_00009_00016],[timetable_00009_00017],[timetable_00009_00018],[timetable_00009_00019],[timetable_00009_00020],[timetable_00010_00009],[timetable_00010_00010],[timetable_00010_00011],[timetable_00010_00012],[timetable_00010_00013],[timetable_00010_00014],[timetable_00010_00015],[timetable_00010_00016],[timetable_00010_00017],[timetable_00010_00018],[timetable_00010_00019],[timetable_00010_00020],[timetable_00011_00006],[timetable_00011_00007],[timetable_00011_00008],[timetable_00011_00009],[timetable_00011_00010],[timetable_00011_00011],[timetable_00011_00012],[timetable_00011_00013],[timetable_00011_00014],[timetable_00011_00015],[timetable_00011_00016],[timetable_00011_00017],[timetable_00011_00018],[timetable_00011_00019],[timetable_00011_00020],[total_time],[total_time]]
+MINIMISING total_time
+VARORDER STATIC [timetable_00002_00001, timetable_00002_00002, timetable_00002_00003, timetable_00002_00004, timetable_00002_00005, timetable_00002_00006, timetable_00002_00007, timetable_00002_00008, timetable_00002_00009, timetable_00002_00010, timetable_00002_00011, timetable_00002_00012, timetable_00002_00013, timetable_00002_00014, timetable_00002_00015, timetable_00002_00016, timetable_00002_00017, timetable_00003_00001, timetable_00003_00002, timetable_00003_00003, timetable_00003_00004, timetable_00003_00005, timetable_00003_00006, timetable_00003_00007, timetable_00003_00008, timetable_00003_00009, timetable_00003_00010, timetable_00004_00001, timetable_00004_00002, timetable_00004_00003, timetable_00004_00004, timetable_00004_00005, timetable_00004_00006, timetable_00004_00007, timetable_00004_00008, timetable_00004_00009, timetable_00004_00010, timetable_00004_00011, timetable_00004_00012, timetable_00004_00013, timetable_00004_00014, timetable_00004_00015, timetable_00004_00016, timetable_00004_00017, timetable_00005_00002, timetable_00005_00003, timetable_00005_00004, timetable_00005_00005, timetable_00005_00006, timetable_00005_00007, timetable_00005_00008, timetable_00005_00009, timetable_00005_00010, timetable_00005_00011, timetable_00005_00012, timetable_00005_00013, timetable_00005_00014, timetable_00005_00015, timetable_00005_00016, timetable_00005_00017, timetable_00005_00018, timetable_00006_00002, timetable_00006_00003, timetable_00006_00004, timetable_00006_00005, timetable_00006_00006, timetable_00006_00007, timetable_00006_00008, timetable_00006_00009, timetable_00006_00010, timetable_00006_00011, timetable_00006_00012, timetable_00006_00013, timetable_00007_00005, timetable_00007_00006, timetable_00007_00007, timetable_00007_00008, timetable_00007_00009, timetable_00007_00010, timetable_00007_00011, timetable_00007_00012, timetable_00007_00013, timetable_00007_00014, timetable_00007_00015, timetable_00007_00016, timetable_00007_00017, timetable_00007_00018, timetable_00008_00006, timetable_00008_00007, timetable_00008_00008, timetable_00008_00009, timetable_00008_00010, timetable_00008_00011, timetable_00008_00012, timetable_00008_00013, timetable_00008_00014, timetable_00008_00015, timetable_00008_00016, timetable_00008_00017, timetable_00008_00018, timetable_00009_00010, timetable_00009_00011, timetable_00009_00012, timetable_00009_00013, timetable_00009_00014, timetable_00009_00015, timetable_00009_00016, timetable_00009_00017, timetable_00009_00018, timetable_00009_00019, timetable_00009_00020, timetable_00010_00009, timetable_00010_00010, timetable_00010_00011, timetable_00010_00012, timetable_00010_00013, timetable_00010_00014, timetable_00010_00015, timetable_00010_00016, timetable_00010_00017, timetable_00010_00018, timetable_00010_00019, timetable_00010_00020, timetable_00011_00006, timetable_00011_00007, timetable_00011_00008, timetable_00011_00009, timetable_00011_00010, timetable_00011_00011, timetable_00011_00012, timetable_00011_00013, timetable_00011_00014, timetable_00011_00015, timetable_00011_00016, timetable_00011_00017, timetable_00011_00018, timetable_00011_00019, timetable_00011_00020, total_time]
+VARORDER STATIC [timetable_00002_00001,timetable_00002_00002,timetable_00002_00003,timetable_00002_00004,timetable_00002_00005,timetable_00002_00006,timetable_00002_00007,timetable_00002_00008,timetable_00002_00009,timetable_00002_00010,timetable_00002_00011,timetable_00002_00012,timetable_00002_00013,timetable_00002_00014,timetable_00002_00015,timetable_00002_00016,timetable_00002_00017,timetable_00003_00001,timetable_00003_00002,timetable_00003_00003,timetable_00003_00004,timetable_00003_00005,timetable_00003_00006,timetable_00003_00007,timetable_00003_00008,timetable_00003_00009,timetable_00003_00010,timetable_00004_00001,timetable_00004_00002,timetable_00004_00003,timetable_00004_00004,timetable_00004_00005,timetable_00004_00006,timetable_00004_00007,timetable_00004_00008,timetable_00004_00009,timetable_00004_00010,timetable_00004_00011,timetable_00004_00012,timetable_00004_00013,timetable_00004_00014,timetable_00004_00015,timetable_00004_00016,timetable_00004_00017,timetable_00005_00002,timetable_00005_00003,timetable_00005_00004,timetable_00005_00005,timetable_00005_00006,timetable_00005_00007,timetable_00005_00008,timetable_00005_00009,timetable_00005_00010,timetable_00005_00011,timetable_00005_00012,timetable_00005_00013,timetable_00005_00014,timetable_00005_00015,timetable_00005_00016,timetable_00005_00017,timetable_00005_00018,timetable_00006_00002,timetable_00006_00003,timetable_00006_00004,timetable_00006_00005,timetable_00006_00006,timetable_00006_00007,timetable_00006_00008,timetable_00006_00009,timetable_00006_00010,timetable_00006_00011,timetable_00006_00012,timetable_00006_00013,timetable_00007_00005,timetable_00007_00006,timetable_00007_00007,timetable_00007_00008,timetable_00007_00009,timetable_00007_00010,timetable_00007_00011,timetable_00007_00012,timetable_00007_00013,timetable_00007_00014,timetable_00007_00015,timetable_00007_00016,timetable_00007_00017,timetable_00007_00018,timetable_00008_00006,timetable_00008_00007,timetable_00008_00008,timetable_00008_00009,timetable_00008_00010,timetable_00008_00011,timetable_00008_00012,timetable_00008_00013,timetable_00008_00014,timetable_00008_00015,timetable_00008_00016,timetable_00008_00017,timetable_00008_00018,timetable_00009_00010,timetable_00009_00011,timetable_00009_00012,timetable_00009_00013,timetable_00009_00014,timetable_00009_00015,timetable_00009_00016,timetable_00009_00017,timetable_00009_00018,timetable_00009_00019,timetable_00009_00020,timetable_00010_00009,timetable_00010_00010,timetable_00010_00011,timetable_00010_00012,timetable_00010_00013,timetable_00010_00014,timetable_00010_00015,timetable_00010_00016,timetable_00010_00017,timetable_00010_00018,timetable_00010_00019,timetable_00010_00020,timetable_00011_00006,timetable_00011_00007,timetable_00011_00008,timetable_00011_00009,timetable_00011_00010,timetable_00011_00011,timetable_00011_00012,timetable_00011_00013,timetable_00011_00014,timetable_00011_00015,timetable_00011_00016,timetable_00011_00017,timetable_00011_00018,timetable_00011_00019,timetable_00011_00020,total_time,aux2,aux4,aux5,aux6,aux7,aux8,aux9,aux10,aux11,aux12,aux13,aux14,aux15,aux16,aux17,aux18,aux19,aux20,aux21,aux22,aux23,aux24,aux25,aux26,aux27,aux28,aux29,aux30,aux31,aux32,aux33,aux34,aux35,aux36,aux37,aux38,aux39,aux40,aux41,aux42,aux43,aux44,aux45,aux46,aux47,aux48,aux49,aux50,aux51,aux52,aux54,aux55,aux56,aux57,aux58,aux59,aux60,aux61,aux62,aux63,aux64,aux65,aux66,aux67,aux68,aux69,aux70,aux71,aux72,aux73,aux74,aux75,aux76,aux77,aux78,aux79,aux80,aux81,aux82,aux83,aux84,aux85,aux86,aux87,aux88,aux89,aux90,aux91,aux92,aux93,aux94,aux95,aux96,aux97,aux98,aux99,aux100,aux101,aux102,aux103,aux104,aux105,aux106,aux107,aux108,aux109,aux110,aux111,aux112,aux113,aux114,aux115,aux116,aux117,aux118,aux119,aux120,aux121,aux122,aux123,aux124,aux125,aux126,aux127,aux128,aux129,aux130,aux131,aux132,aux133,aux134,aux135,aux136,aux137]
+**CONSTRAINTS**
+reify(w-literal(timetable_00002_00006,1), aux102)
+reify(w-literal(timetable_00002_00007,1), aux103)
+reify(w-literal(timetable_00002_00008,1), aux104)
+reify(w-literal(timetable_00002_00009,1), aux105)
+reify(w-literal(timetable_00002_00010,1), aux106)
+reify(w-literal(timetable_00002_00011,1), aux107)
+reify(w-literal(timetable_00002_00012,1), aux108)
+reify(w-literal(timetable_00002_00013,1), aux109)
+reify(w-literal(timetable_00002_00014,1), aux110)
+reify(w-literal(timetable_00002_00015,1), aux111)
+reify(w-literal(timetable_00002_00016,1), aux112)
+reify(w-literal(timetable_00002_00017,1), aux113)
+reify(w-literal(timetable_00004_00006,1), aux114)
+reify(w-literal(timetable_00004_00007,1), aux115)
+reify(w-literal(timetable_00004_00008,1), aux116)
+reify(w-literal(timetable_00004_00009,1), aux117)
+reify(w-literal(timetable_00004_00010,1), aux118)
+reify(w-literal(timetable_00004_00011,1), aux119)
+reify(w-literal(timetable_00004_00012,1), aux120)
+reify(w-literal(timetable_00004_00013,1), aux121)
+reify(w-literal(timetable_00004_00014,1), aux122)
+reify(w-literal(timetable_00004_00015,1), aux123)
+reify(w-literal(timetable_00004_00016,1), aux124)
+reify(w-literal(timetable_00004_00017,1), aux125)
+reify(w-literal(timetable_00005_00009,1), aux126)
+reify(w-literal(timetable_00006_00005,1), aux127)
+reify(w-literal(timetable_00007_00009,1), aux128)
+reify(w-literal(timetable_00008_00010,1), aux129)
+reify(w-literal(timetable_00008_00011,1), aux130)
+reify(w-literal(timetable_00008_00012,1), aux131)
+reify(w-literal(timetable_00008_00013,1), aux132)
+reify(w-literal(timetable_00008_00014,1), aux133)
+reify(w-literal(timetable_00008_00015,1), aux134)
+reify(w-literal(timetable_00008_00016,1), aux135)
+reify(w-literal(timetable_00008_00017,1), aux136)
+reify(w-literal(timetable_00008_00018,1), aux137)
+reify(sumleq([timetable_00010_00009,timetable_00010_00010,timetable_00010_00011,timetable_00010_00012,timetable_00010_00013,timetable_00010_00014,timetable_00010_00015,timetable_00010_00016,timetable_00010_00017,timetable_00010_00018],0), aux2)
+reify(sumleq([timetable_00010_00009,timetable_00010_00010,timetable_00010_00011,timetable_00010_00012,timetable_00010_00013,timetable_00010_00014,timetable_00010_00015,timetable_00010_00016,timetable_00010_00017],0), aux4)
+reify(sumleq([timetable_00009_00010,timetable_00009_00011,timetable_00009_00012,timetable_00009_00013,timetable_00009_00014,timetable_00009_00015,timetable_00009_00016,timetable_00009_00017,timetable_00009_00018],0), aux5)
+reify(sumleq([timetable_00011_00006,timetable_00011_00007,timetable_00011_00008,timetable_00011_00009,timetable_00011_00010,timetable_00011_00011,timetable_00011_00012,timetable_00011_00013],0), aux6)
+reify(sumleq([timetable_00008_00006,timetable_00008_00007,timetable_00008_00008,timetable_00008_00009,timetable_00008_00010,timetable_00008_00011,timetable_00008_00012,timetable_00008_00013],0), aux7)
+reify(sumleq([timetable_00009_00010,timetable_00009_00011,timetable_00009_00012,timetable_00009_00013,timetable_00009_00014,timetable_00009_00015,timetable_00009_00016,timetable_00009_00017],0), aux9)
+reify(sumleq([timetable_00010_00009,timetable_00010_00010,timetable_00010_00011,timetable_00010_00012,timetable_00010_00013,timetable_00010_00014,timetable_00010_00015,timetable_00010_00016],0), aux10)
+reify(sumleq([timetable_00011_00006,timetable_00011_00007,timetable_00011_00008,timetable_00011_00009,timetable_00011_00010,timetable_00011_00011,timetable_00011_00012],0), aux11)
+reify(sumleq([timetable_00009_00010,timetable_00009_00011,timetable_00009_00012,timetable_00009_00013,timetable_00009_00014,timetable_00009_00015,timetable_00009_00016],0), aux12)
+reify(sumleq([timetable_00008_00006,timetable_00008_00007,timetable_00008_00008,timetable_00008_00009,timetable_00008_00010,timetable_00008_00011,timetable_00008_00012],0), aux16)
+reify(sumleq([timetable_00010_00009,timetable_00010_00010,timetable_00010_00011,timetable_00010_00012,timetable_00010_00013,timetable_00010_00014,timetable_00010_00015],0), aux17)
+reify(sumleq([timetable_00010_00009,timetable_00010_00010,timetable_00010_00011,timetable_00010_00012,timetable_00010_00013,timetable_00010_00014],0), aux19)
+reify(sumleq([timetable_00008_00006,timetable_00008_00007,timetable_00008_00008,timetable_00008_00009,timetable_00008_00010,timetable_00008_00011],0), aux25)
+reify(sumleq([timetable_00009_00010,timetable_00009_00011,timetable_00009_00012,timetable_00009_00013,timetable_00009_00014,timetable_00009_00015],0), aux26)
+reify(sumleq([timetable_00011_00006,timetable_00011_00007,timetable_00011_00008,timetable_00011_00009,timetable_00011_00010,timetable_00011_00011],0), aux29)
+reify(sumleq([timetable_00011_00006,timetable_00011_00007,timetable_00011_00008,timetable_00011_00009,timetable_00011_00010],0), aux30)
+reify(sumleq([timetable_00008_00006,timetable_00008_00007,timetable_00008_00008,timetable_00008_00009,timetable_00008_00010],0), aux31)
+reify(sumleq([timetable_00010_00009,timetable_00010_00010,timetable_00010_00011,timetable_00010_00012,timetable_00010_00013],0), aux32)
+reify(sumleq([timetable_00009_00010,timetable_00009_00011,timetable_00009_00012,timetable_00009_00013,timetable_00009_00014],0), aux33)
+reify(sumleq([timetable_00009_00010,timetable_00009_00011,timetable_00009_00012,timetable_00009_00013],0), aux35)
+reify(sumleq([timetable_00011_00006,timetable_00011_00007,timetable_00011_00008,timetable_00011_00009],0), aux36)
+reify(sumleq([timetable_00008_00006,timetable_00008_00007,timetable_00008_00008,timetable_00008_00009],0), aux38)
+reify(sumleq([timetable_00010_00009,timetable_00010_00010,timetable_00010_00011,timetable_00010_00012],0), aux39)
+reify(sumleq([timetable_00010_00009,timetable_00010_00010,timetable_00010_00011],0), aux40)
+reify(sumleq([timetable_00011_00006,timetable_00011_00007,timetable_00011_00008],0), aux41)
+reify(sumleq([timetable_00008_00006,timetable_00008_00007,timetable_00008_00008],0), aux42)
+reify(sumleq([timetable_00009_00010,timetable_00009_00011,timetable_00009_00012],0), aux43)
+reify(sumleq([timetable_00010_00009,timetable_00010_00010],0), aux47)
+reify(sumleq([timetable_00011_00006,timetable_00011_00007],0), aux48)
+reify(sumleq([timetable_00009_00010,timetable_00009_00011],0), aux49)
+reify(sumleq([timetable_00008_00006,timetable_00008_00007],0), aux50)
+reify(w-literal(timetable_00007_00018,1), aux54)
+reify(w-literal(timetable_00007_00015,1), aux55)
+reify(w-literal(timetable_00007_00014,1), aux56)
+reify(w-literal(timetable_00007_00017,1), aux57)
+reify(w-literal(timetable_00007_00016,1), aux58)
+reify(w-literal(timetable_00007_00010,1), aux59)
+reify(w-literal(timetable_00007_00011,1), aux60)
+reify(w-literal(timetable_00007_00013,1), aux61)
+reify(w-literal(timetable_00007_00012,1), aux62)
+reify(w-literal(timetable_00006_00013,1), aux63)
+reify(w-literal(timetable_00006_00012,1), aux64)
+reify(w-literal(timetable_00006_00011,1), aux65)
+reify(w-literal(timetable_00006_00010,1), aux66)
+reify(w-literal(timetable_00006_00009,1), aux67)
+reify(w-literal(timetable_00006_00008,1), aux68)
+reify(w-literal(timetable_00006_00007,1), aux69)
+reify(w-literal(timetable_00006_00006,1), aux70)
+reify(w-literal(timetable_00009_00010,0), aux71)
+reify(ineq(17, total_time, -1), aux72)
+reify(ineq(19, total_time, -1), aux73)
+reify(ineq(13, total_time, -1), aux74)
+reify(ineq(15, total_time, -1), aux75)
+reify(ineq(18, total_time, -1), aux76)
+reify(ineq(14, total_time, -1), aux77)
+reify(ineq(total_time, 12, 0), aux78)
+reify(ineq(total_time, 16, 0), aux79)
+reify(ineq(total_time, 20, 0), aux80)
+reify(w-literal(timetable_00010_00009,0), aux81)
+reify(w-literal(timetable_00011_00006,0), aux82)
+reify(w-literal(timetable_00008_00006,0), aux83)
+reify(w-literal(timetable_00003_00010,1), aux84)
+reify(w-literal(timetable_00003_00009,1), aux85)
+reify(w-literal(timetable_00003_00008,1), aux86)
+reify(w-literal(timetable_00003_00007,1), aux87)
+reify(w-literal(timetable_00003_00006,1), aux88)
+reify(w-literal(timetable_00003_00005,1), aux89)
+reify(w-literal(timetable_00003_00004,1), aux90)
+reify(w-literal(timetable_00003_00003,1), aux91)
+reify(w-literal(timetable_00003_00002,1), aux92)
+reify(w-literal(timetable_00005_00014,1), aux93)
+reify(w-literal(timetable_00005_00015,1), aux94)
+reify(w-literal(timetable_00005_00012,1), aux95)
+reify(w-literal(timetable_00005_00013,1), aux96)
+reify(w-literal(timetable_00005_00018,1), aux97)
+reify(w-literal(timetable_00005_00016,1), aux98)
+reify(w-literal(timetable_00005_00017,1), aux99)
+reify(w-literal(timetable_00005_00010,1), aux100)
+reify(w-literal(timetable_00005_00011,1), aux101)
+sumgeq([timetable_00003_00001,timetable_00004_00001,timetable_00002_00001],1)
+reifyimply(ineq(1, aux15, 0), !aux78)
+reifyimply(ineq(1, aux14, 0), aux74)
+reifyimply(ineq(1, aux24, 0), aux77)
+reifyimply(ineq(1, aux27, 0), aux75)
+reifyimply(ineq(1, aux21, 0), !aux79)
+reifyimply(ineq(1, aux20, 0), aux72)
+reifyimply(ineq(1, aux34, 0), aux76)
+reifyimply(ineq(1, aux52, 0), aux73)
+reifyimply(ineq(1, aux51, 0), !aux80)
+watched-or({diseq(0,timetable_00002_00002),diseq(1,timetable_00002_00001),watched-and({w-literal(timetable_00002_00002,0),w-literal(timetable_00002_00003,0),w-literal(timetable_00002_00004,0),w-literal(timetable_00002_00005,0),w-literal(timetable_00002_00006,0),w-literal(timetable_00002_00007,0),w-literal(timetable_00002_00008,0),w-literal(timetable_00002_00009,0),w-literal(timetable_00002_00010,0),w-literal(timetable_00002_00011,0),w-literal(timetable_00002_00012,0),w-literal(timetable_00002_00013,0),w-literal(timetable_00002_00014,0),w-literal(timetable_00002_00015,0),w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)})})
+watched-or({watched-and({w-literal(timetable_00002_00003,0),w-literal(timetable_00002_00004,0),w-literal(timetable_00002_00005,0),w-literal(timetable_00002_00006,0),w-literal(timetable_00002_00007,0),w-literal(timetable_00002_00008,0),w-literal(timetable_00002_00009,0),w-literal(timetable_00002_00010,0),w-literal(timetable_00002_00011,0),w-literal(timetable_00002_00012,0),w-literal(timetable_00002_00013,0),w-literal(timetable_00002_00014,0),w-literal(timetable_00002_00015,0),w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)}),diseq(0,timetable_00002_00003),diseq(1,timetable_00002_00002)})
+watched-or({watched-and({w-literal(timetable_00002_00004,0),w-literal(timetable_00002_00005,0),w-literal(timetable_00002_00006,0),w-literal(timetable_00002_00007,0),w-literal(timetable_00002_00008,0),w-literal(timetable_00002_00009,0),w-literal(timetable_00002_00010,0),w-literal(timetable_00002_00011,0),w-literal(timetable_00002_00012,0),w-literal(timetable_00002_00013,0),w-literal(timetable_00002_00014,0),w-literal(timetable_00002_00015,0),w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)}),diseq(0,timetable_00002_00004),diseq(1,timetable_00002_00003)})
+watched-or({diseq(0,timetable_00002_00005),diseq(1,timetable_00002_00004),watched-and({w-literal(timetable_00002_00005,0),w-literal(timetable_00002_00006,0),w-literal(timetable_00002_00007,0),w-literal(timetable_00002_00008,0),w-literal(timetable_00002_00009,0),w-literal(timetable_00002_00010,0),w-literal(timetable_00002_00011,0),w-literal(timetable_00002_00012,0),w-literal(timetable_00002_00013,0),w-literal(timetable_00002_00014,0),w-literal(timetable_00002_00015,0),w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)})})
+watched-or({diseq(0,timetable_00002_00006),diseq(1,timetable_00002_00005),watched-and({w-literal(timetable_00002_00006,0),w-literal(timetable_00002_00007,0),w-literal(timetable_00002_00008,0),w-literal(timetable_00002_00009,0),w-literal(timetable_00002_00010,0),w-literal(timetable_00002_00011,0),w-literal(timetable_00002_00012,0),w-literal(timetable_00002_00013,0),w-literal(timetable_00002_00014,0),w-literal(timetable_00002_00015,0),w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)})})
+watched-or({diseq(0,timetable_00002_00007),diseq(1,timetable_00002_00006),watched-and({w-literal(timetable_00002_00007,0),w-literal(timetable_00002_00008,0),w-literal(timetable_00002_00009,0),w-literal(timetable_00002_00010,0),w-literal(timetable_00002_00011,0),w-literal(timetable_00002_00012,0),w-literal(timetable_00002_00013,0),w-literal(timetable_00002_00014,0),w-literal(timetable_00002_00015,0),w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)})})
+watched-or({diseq(0,timetable_00002_00008),diseq(1,timetable_00002_00007),watched-and({w-literal(timetable_00002_00008,0),w-literal(timetable_00002_00009,0),w-literal(timetable_00002_00010,0),w-literal(timetable_00002_00011,0),w-literal(timetable_00002_00012,0),w-literal(timetable_00002_00013,0),w-literal(timetable_00002_00014,0),w-literal(timetable_00002_00015,0),w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)})})
+watched-or({diseq(0,timetable_00002_00009),diseq(1,timetable_00002_00008),watched-and({w-literal(timetable_00002_00009,0),w-literal(timetable_00002_00010,0),w-literal(timetable_00002_00011,0),w-literal(timetable_00002_00012,0),w-literal(timetable_00002_00013,0),w-literal(timetable_00002_00014,0),w-literal(timetable_00002_00015,0),w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)})})
+watched-or({watched-and({w-literal(timetable_00002_00010,0),w-literal(timetable_00002_00011,0),w-literal(timetable_00002_00012,0),w-literal(timetable_00002_00013,0),w-literal(timetable_00002_00014,0),w-literal(timetable_00002_00015,0),w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)}),diseq(0,timetable_00002_00010),diseq(1,timetable_00002_00009)})
+watched-or({diseq(0,timetable_00002_00011),diseq(1,timetable_00002_00010),watched-and({w-literal(timetable_00002_00011,0),w-literal(timetable_00002_00012,0),w-literal(timetable_00002_00013,0),w-literal(timetable_00002_00014,0),w-literal(timetable_00002_00015,0),w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)})})
+watched-or({diseq(0,timetable_00002_00012),diseq(1,timetable_00002_00011),watched-and({w-literal(timetable_00002_00012,0),w-literal(timetable_00002_00013,0),w-literal(timetable_00002_00014,0),w-literal(timetable_00002_00015,0),w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)})})
+watched-or({watched-and({w-literal(timetable_00002_00013,0),w-literal(timetable_00002_00014,0),w-literal(timetable_00002_00015,0),w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)}),diseq(0,timetable_00002_00013),diseq(1,timetable_00002_00012)})
+watched-or({diseq(0,timetable_00002_00014),diseq(1,timetable_00002_00013),watched-and({w-literal(timetable_00002_00014,0),w-literal(timetable_00002_00015,0),w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)})})
+watched-or({diseq(0,timetable_00002_00015),diseq(1,timetable_00002_00014),watched-and({w-literal(timetable_00002_00015,0),w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)})})
+watched-or({diseq(0,timetable_00002_00016),diseq(1,timetable_00002_00015),watched-and({w-literal(timetable_00002_00016,0),w-literal(timetable_00002_00017,0)})})
+watched-or({w-literal(timetable_00002_00017,0),diseq(0,timetable_00002_00017),diseq(1,timetable_00002_00016)})
+watched-or({watched-and({w-literal(timetable_00003_00002,0),w-literal(timetable_00003_00003,0),w-literal(timetable_00003_00004,0),w-literal(timetable_00003_00005,0),w-literal(timetable_00003_00006,0),w-literal(timetable_00003_00007,0),w-literal(timetable_00003_00008,0),w-literal(timetable_00003_00009,0),w-literal(timetable_00003_00010,0)}),diseq(timetable_00003_00001,1),diseq(timetable_00003_00002,0)})
+watched-or({watched-and({w-literal(timetable_00003_00003,0),w-literal(timetable_00003_00004,0),w-literal(timetable_00003_00005,0),w-literal(timetable_00003_00006,0),w-literal(timetable_00003_00007,0),w-literal(timetable_00003_00008,0),w-literal(timetable_00003_00009,0),w-literal(timetable_00003_00010,0)}),diseq(timetable_00003_00002,1),diseq(timetable_00003_00003,0)})
+watched-or({watched-and({w-literal(timetable_00003_00004,0),w-literal(timetable_00003_00005,0),w-literal(timetable_00003_00006,0),w-literal(timetable_00003_00007,0),w-literal(timetable_00003_00008,0),w-literal(timetable_00003_00009,0),w-literal(timetable_00003_00010,0)}),diseq(timetable_00003_00003,1),diseq(timetable_00003_00004,0)})
+watched-or({watched-and({w-literal(timetable_00003_00005,0),w-literal(timetable_00003_00006,0),w-literal(timetable_00003_00007,0),w-literal(timetable_00003_00008,0),w-literal(timetable_00003_00009,0),w-literal(timetable_00003_00010,0)}),diseq(timetable_00003_00004,1),diseq(timetable_00003_00005,0)})
+watched-or({watched-and({w-literal(timetable_00003_00006,0),w-literal(timetable_00003_00007,0),w-literal(timetable_00003_00008,0),w-literal(timetable_00003_00009,0),w-literal(timetable_00003_00010,0)}),diseq(timetable_00003_00005,1),diseq(timetable_00003_00006,0)})
+watched-or({watched-and({w-literal(timetable_00003_00007,0),w-literal(timetable_00003_00008,0),w-literal(timetable_00003_00009,0),w-literal(timetable_00003_00010,0)}),diseq(timetable_00003_00006,1),diseq(timetable_00003_00007,0)})
+watched-or({watched-and({w-literal(timetable_00003_00008,0),w-literal(timetable_00003_00009,0),w-literal(timetable_00003_00010,0)}),diseq(timetable_00003_00007,1),diseq(timetable_00003_00008,0)})
+watched-or({watched-and({w-literal(timetable_00003_00009,0),w-literal(timetable_00003_00010,0)}),diseq(timetable_00003_00008,1),diseq(timetable_00003_00009,0)})
+watched-or({w-literal(timetable_00003_00010,0),diseq(timetable_00003_00009,1),diseq(timetable_00003_00010,0)})
+watched-or({diseq(timetable_00004_00001,1),diseq(timetable_00004_00002,0),watched-and({w-literal(timetable_00004_00002,0),w-literal(timetable_00004_00003,0),w-literal(timetable_00004_00004,0),w-literal(timetable_00004_00005,0),w-literal(timetable_00004_00006,0),w-literal(timetable_00004_00007,0),w-literal(timetable_00004_00008,0),w-literal(timetable_00004_00009,0),w-literal(timetable_00004_00010,0),w-literal(timetable_00004_00011,0),w-literal(timetable_00004_00012,0),w-literal(timetable_00004_00013,0),w-literal(timetable_00004_00014,0),w-literal(timetable_00004_00015,0),w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)})})
+watched-or({watched-and({w-literal(timetable_00004_00003,0),w-literal(timetable_00004_00004,0),w-literal(timetable_00004_00005,0),w-literal(timetable_00004_00006,0),w-literal(timetable_00004_00007,0),w-literal(timetable_00004_00008,0),w-literal(timetable_00004_00009,0),w-literal(timetable_00004_00010,0),w-literal(timetable_00004_00011,0),w-literal(timetable_00004_00012,0),w-literal(timetable_00004_00013,0),w-literal(timetable_00004_00014,0),w-literal(timetable_00004_00015,0),w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)}),diseq(timetable_00004_00002,1),diseq(timetable_00004_00003,0)})
+watched-or({diseq(timetable_00004_00003,1),diseq(timetable_00004_00004,0),watched-and({w-literal(timetable_00004_00004,0),w-literal(timetable_00004_00005,0),w-literal(timetable_00004_00006,0),w-literal(timetable_00004_00007,0),w-literal(timetable_00004_00008,0),w-literal(timetable_00004_00009,0),w-literal(timetable_00004_00010,0),w-literal(timetable_00004_00011,0),w-literal(timetable_00004_00012,0),w-literal(timetable_00004_00013,0),w-literal(timetable_00004_00014,0),w-literal(timetable_00004_00015,0),w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)})})
+watched-or({diseq(timetable_00004_00004,1),diseq(timetable_00004_00005,0),watched-and({w-literal(timetable_00004_00005,0),w-literal(timetable_00004_00006,0),w-literal(timetable_00004_00007,0),w-literal(timetable_00004_00008,0),w-literal(timetable_00004_00009,0),w-literal(timetable_00004_00010,0),w-literal(timetable_00004_00011,0),w-literal(timetable_00004_00012,0),w-literal(timetable_00004_00013,0),w-literal(timetable_00004_00014,0),w-literal(timetable_00004_00015,0),w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)})})
+watched-or({diseq(timetable_00004_00005,1),diseq(timetable_00004_00006,0),watched-and({w-literal(timetable_00004_00006,0),w-literal(timetable_00004_00007,0),w-literal(timetable_00004_00008,0),w-literal(timetable_00004_00009,0),w-literal(timetable_00004_00010,0),w-literal(timetable_00004_00011,0),w-literal(timetable_00004_00012,0),w-literal(timetable_00004_00013,0),w-literal(timetable_00004_00014,0),w-literal(timetable_00004_00015,0),w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)})})
+watched-or({diseq(timetable_00004_00006,1),diseq(timetable_00004_00007,0),watched-and({w-literal(timetable_00004_00007,0),w-literal(timetable_00004_00008,0),w-literal(timetable_00004_00009,0),w-literal(timetable_00004_00010,0),w-literal(timetable_00004_00011,0),w-literal(timetable_00004_00012,0),w-literal(timetable_00004_00013,0),w-literal(timetable_00004_00014,0),w-literal(timetable_00004_00015,0),w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)})})
+watched-or({watched-and({w-literal(timetable_00004_00008,0),w-literal(timetable_00004_00009,0),w-literal(timetable_00004_00010,0),w-literal(timetable_00004_00011,0),w-literal(timetable_00004_00012,0),w-literal(timetable_00004_00013,0),w-literal(timetable_00004_00014,0),w-literal(timetable_00004_00015,0),w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)}),diseq(timetable_00004_00007,1),diseq(timetable_00004_00008,0)})
+watched-or({watched-and({w-literal(timetable_00004_00009,0),w-literal(timetable_00004_00010,0),w-literal(timetable_00004_00011,0),w-literal(timetable_00004_00012,0),w-literal(timetable_00004_00013,0),w-literal(timetable_00004_00014,0),w-literal(timetable_00004_00015,0),w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)}),diseq(timetable_00004_00008,1),diseq(timetable_00004_00009,0)})
+watched-or({watched-and({w-literal(timetable_00004_00010,0),w-literal(timetable_00004_00011,0),w-literal(timetable_00004_00012,0),w-literal(timetable_00004_00013,0),w-literal(timetable_00004_00014,0),w-literal(timetable_00004_00015,0),w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)}),diseq(timetable_00004_00009,1),diseq(timetable_00004_00010,0)})
+watched-or({diseq(timetable_00004_00010,1),diseq(timetable_00004_00011,0),watched-and({w-literal(timetable_00004_00011,0),w-literal(timetable_00004_00012,0),w-literal(timetable_00004_00013,0),w-literal(timetable_00004_00014,0),w-literal(timetable_00004_00015,0),w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)})})
+watched-or({diseq(timetable_00004_00011,1),diseq(timetable_00004_00012,0),watched-and({w-literal(timetable_00004_00012,0),w-literal(timetable_00004_00013,0),w-literal(timetable_00004_00014,0),w-literal(timetable_00004_00015,0),w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)})})
+watched-or({watched-and({w-literal(timetable_00004_00013,0),w-literal(timetable_00004_00014,0),w-literal(timetable_00004_00015,0),w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)}),diseq(timetable_00004_00012,1),diseq(timetable_00004_00013,0)})
+watched-or({watched-and({w-literal(timetable_00004_00014,0),w-literal(timetable_00004_00015,0),w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)}),diseq(timetable_00004_00013,1),diseq(timetable_00004_00014,0)})
+watched-or({diseq(timetable_00004_00014,1),diseq(timetable_00004_00015,0),watched-and({w-literal(timetable_00004_00015,0),w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)})})
+watched-or({diseq(timetable_00004_00015,1),diseq(timetable_00004_00016,0),watched-and({w-literal(timetable_00004_00016,0),w-literal(timetable_00004_00017,0)})})
+watched-or({diseq(timetable_00004_00016,1),diseq(timetable_00004_00017,0),w-literal(timetable_00004_00017,0)})
+watched-or({diseq(0,timetable_00005_00003),diseq(1,timetable_00005_00002),watched-and({w-literal(timetable_00005_00003,0),w-literal(timetable_00005_00004,0),w-literal(timetable_00005_00005,0),w-literal(timetable_00005_00006,0),w-literal(timetable_00005_00007,0),w-literal(timetable_00005_00008,0),w-literal(timetable_00005_00009,0),w-literal(timetable_00005_00010,0),w-literal(timetable_00005_00011,0),w-literal(timetable_00005_00012,0),w-literal(timetable_00005_00013,0),w-literal(timetable_00005_00014,0),w-literal(timetable_00005_00015,0),w-literal(timetable_00005_00016,0),w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00004),diseq(1,timetable_00005_00003),watched-and({w-literal(timetable_00005_00004,0),w-literal(timetable_00005_00005,0),w-literal(timetable_00005_00006,0),w-literal(timetable_00005_00007,0),w-literal(timetable_00005_00008,0),w-literal(timetable_00005_00009,0),w-literal(timetable_00005_00010,0),w-literal(timetable_00005_00011,0),w-literal(timetable_00005_00012,0),w-literal(timetable_00005_00013,0),w-literal(timetable_00005_00014,0),w-literal(timetable_00005_00015,0),w-literal(timetable_00005_00016,0),w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00005),diseq(1,timetable_00005_00004),watched-and({w-literal(timetable_00005_00005,0),w-literal(timetable_00005_00006,0),w-literal(timetable_00005_00007,0),w-literal(timetable_00005_00008,0),w-literal(timetable_00005_00009,0),w-literal(timetable_00005_00010,0),w-literal(timetable_00005_00011,0),w-literal(timetable_00005_00012,0),w-literal(timetable_00005_00013,0),w-literal(timetable_00005_00014,0),w-literal(timetable_00005_00015,0),w-literal(timetable_00005_00016,0),w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00006),diseq(1,timetable_00005_00005),watched-and({w-literal(timetable_00005_00006,0),w-literal(timetable_00005_00007,0),w-literal(timetable_00005_00008,0),w-literal(timetable_00005_00009,0),w-literal(timetable_00005_00010,0),w-literal(timetable_00005_00011,0),w-literal(timetable_00005_00012,0),w-literal(timetable_00005_00013,0),w-literal(timetable_00005_00014,0),w-literal(timetable_00005_00015,0),w-literal(timetable_00005_00016,0),w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00007),diseq(1,timetable_00005_00006),watched-and({w-literal(timetable_00005_00007,0),w-literal(timetable_00005_00008,0),w-literal(timetable_00005_00009,0),w-literal(timetable_00005_00010,0),w-literal(timetable_00005_00011,0),w-literal(timetable_00005_00012,0),w-literal(timetable_00005_00013,0),w-literal(timetable_00005_00014,0),w-literal(timetable_00005_00015,0),w-literal(timetable_00005_00016,0),w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00008),diseq(1,timetable_00005_00007),watched-and({w-literal(timetable_00005_00008,0),w-literal(timetable_00005_00009,0),w-literal(timetable_00005_00010,0),w-literal(timetable_00005_00011,0),w-literal(timetable_00005_00012,0),w-literal(timetable_00005_00013,0),w-literal(timetable_00005_00014,0),w-literal(timetable_00005_00015,0),w-literal(timetable_00005_00016,0),w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00009),diseq(1,timetable_00005_00008),watched-and({w-literal(timetable_00005_00009,0),w-literal(timetable_00005_00010,0),w-literal(timetable_00005_00011,0),w-literal(timetable_00005_00012,0),w-literal(timetable_00005_00013,0),w-literal(timetable_00005_00014,0),w-literal(timetable_00005_00015,0),w-literal(timetable_00005_00016,0),w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00010),diseq(1,timetable_00005_00009),watched-and({w-literal(timetable_00005_00010,0),w-literal(timetable_00005_00011,0),w-literal(timetable_00005_00012,0),w-literal(timetable_00005_00013,0),w-literal(timetable_00005_00014,0),w-literal(timetable_00005_00015,0),w-literal(timetable_00005_00016,0),w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00011),diseq(1,timetable_00005_00010),watched-and({w-literal(timetable_00005_00011,0),w-literal(timetable_00005_00012,0),w-literal(timetable_00005_00013,0),w-literal(timetable_00005_00014,0),w-literal(timetable_00005_00015,0),w-literal(timetable_00005_00016,0),w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00012),diseq(1,timetable_00005_00011),watched-and({w-literal(timetable_00005_00012,0),w-literal(timetable_00005_00013,0),w-literal(timetable_00005_00014,0),w-literal(timetable_00005_00015,0),w-literal(timetable_00005_00016,0),w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00013),diseq(1,timetable_00005_00012),watched-and({w-literal(timetable_00005_00013,0),w-literal(timetable_00005_00014,0),w-literal(timetable_00005_00015,0),w-literal(timetable_00005_00016,0),w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00014),diseq(1,timetable_00005_00013),watched-and({w-literal(timetable_00005_00014,0),w-literal(timetable_00005_00015,0),w-literal(timetable_00005_00016,0),w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00015),diseq(1,timetable_00005_00014),watched-and({w-literal(timetable_00005_00015,0),w-literal(timetable_00005_00016,0),w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00016),diseq(1,timetable_00005_00015),watched-and({w-literal(timetable_00005_00016,0),w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00017),diseq(1,timetable_00005_00016),watched-and({w-literal(timetable_00005_00017,0),w-literal(timetable_00005_00018,0)})})
+watched-or({diseq(0,timetable_00005_00018),diseq(1,timetable_00005_00017),w-literal(timetable_00005_00018,0)})
+watched-or({watched-and({w-literal(timetable_00006_00003,0),w-literal(timetable_00006_00004,0),w-literal(timetable_00006_00005,0),w-literal(timetable_00006_00006,0),w-literal(timetable_00006_00007,0),w-literal(timetable_00006_00008,0),w-literal(timetable_00006_00009,0),w-literal(timetable_00006_00010,0),w-literal(timetable_00006_00011,0),w-literal(timetable_00006_00012,0),w-literal(timetable_00006_00013,0)}),diseq(0,timetable_00006_00003),diseq(1,timetable_00006_00002)})
+watched-or({diseq(0,timetable_00006_00004),diseq(1,timetable_00006_00003),watched-and({w-literal(timetable_00006_00004,0),w-literal(timetable_00006_00005,0),w-literal(timetable_00006_00006,0),w-literal(timetable_00006_00007,0),w-literal(timetable_00006_00008,0),w-literal(timetable_00006_00009,0),w-literal(timetable_00006_00010,0),w-literal(timetable_00006_00011,0),w-literal(timetable_00006_00012,0),w-literal(timetable_00006_00013,0)})})
+watched-or({diseq(0,timetable_00006_00005),diseq(1,timetable_00006_00004),watched-and({w-literal(timetable_00006_00005,0),w-literal(timetable_00006_00006,0),w-literal(timetable_00006_00007,0),w-literal(timetable_00006_00008,0),w-literal(timetable_00006_00009,0),w-literal(timetable_00006_00010,0),w-literal(timetable_00006_00011,0),w-literal(timetable_00006_00012,0),w-literal(timetable_00006_00013,0)})})
+watched-or({diseq(0,timetable_00006_00006),diseq(1,timetable_00006_00005),watched-and({w-literal(timetable_00006_00006,0),w-literal(timetable_00006_00007,0),w-literal(timetable_00006_00008,0),w-literal(timetable_00006_00009,0),w-literal(timetable_00006_00010,0),w-literal(timetable_00006_00011,0),w-literal(timetable_00006_00012,0),w-literal(timetable_00006_00013,0)})})
+watched-or({diseq(0,timetable_00006_00007),diseq(1,timetable_00006_00006),watched-and({w-literal(timetable_00006_00007,0),w-literal(timetable_00006_00008,0),w-literal(timetable_00006_00009,0),w-literal(timetable_00006_00010,0),w-literal(timetable_00006_00011,0),w-literal(timetable_00006_00012,0),w-literal(timetable_00006_00013,0)})})
+watched-or({diseq(0,timetable_00006_00008),diseq(1,timetable_00006_00007),watched-and({w-literal(timetable_00006_00008,0),w-literal(timetable_00006_00009,0),w-literal(timetable_00006_00010,0),w-literal(timetable_00006_00011,0),w-literal(timetable_00006_00012,0),w-literal(timetable_00006_00013,0)})})
+watched-or({diseq(0,timetable_00006_00009),diseq(1,timetable_00006_00008),watched-and({w-literal(timetable_00006_00009,0),w-literal(timetable_00006_00010,0),w-literal(timetable_00006_00011,0),w-literal(timetable_00006_00012,0),w-literal(timetable_00006_00013,0)})})
+watched-or({diseq(0,timetable_00006_00010),diseq(1,timetable_00006_00009),watched-and({w-literal(timetable_00006_00010,0),w-literal(timetable_00006_00011,0),w-literal(timetable_00006_00012,0),w-literal(timetable_00006_00013,0)})})
+watched-or({diseq(0,timetable_00006_00011),diseq(1,timetable_00006_00010),watched-and({w-literal(timetable_00006_00011,0),w-literal(timetable_00006_00012,0),w-literal(timetable_00006_00013,0)})})
+watched-or({diseq(0,timetable_00006_00012),diseq(1,timetable_00006_00011),watched-and({w-literal(timetable_00006_00012,0),w-literal(timetable_00006_00013,0)})})
+watched-or({diseq(0,timetable_00006_00013),diseq(1,timetable_00006_00012),w-literal(timetable_00006_00013,0)})
+watched-or({diseq(timetable_00007_00005,1),diseq(timetable_00007_00006,0),watched-and({w-literal(timetable_00007_00006,0),w-literal(timetable_00007_00007,0),w-literal(timetable_00007_00008,0),w-literal(timetable_00007_00009,0),w-literal(timetable_00007_00010,0),w-literal(timetable_00007_00011,0),w-literal(timetable_00007_00012,0),w-literal(timetable_00007_00013,0),w-literal(timetable_00007_00014,0),w-literal(timetable_00007_00015,0),w-literal(timetable_00007_00016,0),w-literal(timetable_00007_00017,0),w-literal(timetable_00007_00018,0)})})
+watched-or({diseq(timetable_00007_00006,1),diseq(timetable_00007_00007,0),watched-and({w-literal(timetable_00007_00007,0),w-literal(timetable_00007_00008,0),w-literal(timetable_00007_00009,0),w-literal(timetable_00007_00010,0),w-literal(timetable_00007_00011,0),w-literal(timetable_00007_00012,0),w-literal(timetable_00007_00013,0),w-literal(timetable_00007_00014,0),w-literal(timetable_00007_00015,0),w-literal(timetable_00007_00016,0),w-literal(timetable_00007_00017,0),w-literal(timetable_00007_00018,0)})})
+watched-or({watched-and({w-literal(timetable_00007_00008,0),w-literal(timetable_00007_00009,0),w-literal(timetable_00007_00010,0),w-literal(timetable_00007_00011,0),w-literal(timetable_00007_00012,0),w-literal(timetable_00007_00013,0),w-literal(timetable_00007_00014,0),w-literal(timetable_00007_00015,0),w-literal(timetable_00007_00016,0),w-literal(timetable_00007_00017,0),w-literal(timetable_00007_00018,0)}),diseq(timetable_00007_00007,1),diseq(timetable_00007_00008,0)})
+watched-or({watched-and({w-literal(timetable_00007_00009,0),w-literal(timetable_00007_00010,0),w-literal(timetable_00007_00011,0),w-literal(timetable_00007_00012,0),w-literal(timetable_00007_00013,0),w-literal(timetable_00007_00014,0),w-literal(timetable_00007_00015,0),w-literal(timetable_00007_00016,0),w-literal(timetable_00007_00017,0),w-literal(timetable_00007_00018,0)}),diseq(timetable_00007_00008,1),diseq(timetable_00007_00009,0)})
+watched-or({watched-and({w-literal(timetable_00007_00010,0),w-literal(timetable_00007_00011,0),w-literal(timetable_00007_00012,0),w-literal(timetable_00007_00013,0),w-literal(timetable_00007_00014,0),w-literal(timetable_00007_00015,0),w-literal(timetable_00007_00016,0),w-literal(timetable_00007_00017,0),w-literal(timetable_00007_00018,0)}),diseq(timetable_00007_00009,1),diseq(timetable_00007_00010,0)})
+watched-or({diseq(timetable_00007_00010,1),diseq(timetable_00007_00011,0),watched-and({w-literal(timetable_00007_00011,0),w-literal(timetable_00007_00012,0),w-literal(timetable_00007_00013,0),w-literal(timetable_00007_00014,0),w-literal(timetable_00007_00015,0),w-literal(timetable_00007_00016,0),w-literal(timetable_00007_00017,0),w-literal(timetable_00007_00018,0)})})
+watched-or({watched-and({w-literal(timetable_00007_00012,0),w-literal(timetable_00007_00013,0),w-literal(timetable_00007_00014,0),w-literal(timetable_00007_00015,0),w-literal(timetable_00007_00016,0),w-literal(timetable_00007_00017,0),w-literal(timetable_00007_00018,0)}),diseq(timetable_00007_00011,1),diseq(timetable_00007_00012,0)})
+watched-or({diseq(timetable_00007_00012,1),diseq(timetable_00007_00013,0),watched-and({w-literal(timetable_00007_00013,0),w-literal(timetable_00007_00014,0),w-literal(timetable_00007_00015,0),w-literal(timetable_00007_00016,0),w-literal(timetable_00007_00017,0),w-literal(timetable_00007_00018,0)})})
+watched-or({diseq(timetable_00007_00013,1),diseq(timetable_00007_00014,0),watched-and({w-literal(timetable_00007_00014,0),w-literal(timetable_00007_00015,0),w-literal(timetable_00007_00016,0),w-literal(timetable_00007_00017,0),w-literal(timetable_00007_00018,0)})})
+watched-or({watched-and({w-literal(timetable_00007_00015,0),w-literal(timetable_00007_00016,0),w-literal(timetable_00007_00017,0),w-literal(timetable_00007_00018,0)}),diseq(timetable_00007_00014,1),diseq(timetable_00007_00015,0)})
+watched-or({watched-and({w-literal(timetable_00007_00016,0),w-literal(timetable_00007_00017,0),w-literal(timetable_00007_00018,0)}),diseq(timetable_00007_00015,1),diseq(timetable_00007_00016,0)})
+watched-or({diseq(timetable_00007_00016,1),diseq(timetable_00007_00017,0),watched-and({w-literal(timetable_00007_00017,0),w-literal(timetable_00007_00018,0)})})
+watched-or({diseq(timetable_00007_00017,1),diseq(timetable_00007_00018,0),w-literal(timetable_00007_00018,0)})
+watched-or({diseq(timetable_00008_00006,1),diseq(timetable_00008_00007,0),watched-and({w-literal(timetable_00008_00007,0),w-literal(timetable_00008_00008,0),w-literal(timetable_00008_00009,0),w-literal(timetable_00008_00010,0),w-literal(timetable_00008_00011,0),w-literal(timetable_00008_00012,0),w-literal(timetable_00008_00013,0),w-literal(timetable_00008_00014,0),w-literal(timetable_00008_00015,0),w-literal(timetable_00008_00016,0),w-literal(timetable_00008_00017,0),w-literal(timetable_00008_00018,0)})})
+watched-or({diseq(timetable_00008_00007,1),diseq(timetable_00008_00008,0),watched-and({w-literal(timetable_00008_00008,0),w-literal(timetable_00008_00009,0),w-literal(timetable_00008_00010,0),w-literal(timetable_00008_00011,0),w-literal(timetable_00008_00012,0),w-literal(timetable_00008_00013,0),w-literal(timetable_00008_00014,0),w-literal(timetable_00008_00015,0),w-literal(timetable_00008_00016,0),w-literal(timetable_00008_00017,0),w-literal(timetable_00008_00018,0)})})
+watched-or({diseq(timetable_00008_00008,1),diseq(timetable_00008_00009,0),watched-and({w-literal(timetable_00008_00009,0),w-literal(timetable_00008_00010,0),w-literal(timetable_00008_00011,0),w-literal(timetable_00008_00012,0),w-literal(timetable_00008_00013,0),w-literal(timetable_00008_00014,0),w-literal(timetable_00008_00015,0),w-literal(timetable_00008_00016,0),w-literal(timetable_00008_00017,0),w-literal(timetable_00008_00018,0)})})
+watched-or({diseq(timetable_00008_00009,1),diseq(timetable_00008_00010,0),watched-and({w-literal(timetable_00008_00010,0),w-literal(timetable_00008_00011,0),w-literal(timetable_00008_00012,0),w-literal(timetable_00008_00013,0),w-literal(timetable_00008_00014,0),w-literal(timetable_00008_00015,0),w-literal(timetable_00008_00016,0),w-literal(timetable_00008_00017,0),w-literal(timetable_00008_00018,0)})})
+watched-or({diseq(timetable_00008_00010,1),diseq(timetable_00008_00011,0),watched-and({w-literal(timetable_00008_00011,0),w-literal(timetable_00008_00012,0),w-literal(timetable_00008_00013,0),w-literal(timetable_00008_00014,0),w-literal(timetable_00008_00015,0),w-literal(timetable_00008_00016,0),w-literal(timetable_00008_00017,0),w-literal(timetable_00008_00018,0)})})
+watched-or({diseq(timetable_00008_00011,1),diseq(timetable_00008_00012,0),watched-and({w-literal(timetable_00008_00012,0),w-literal(timetable_00008_00013,0),w-literal(timetable_00008_00014,0),w-literal(timetable_00008_00015,0),w-literal(timetable_00008_00016,0),w-literal(timetable_00008_00017,0),w-literal(timetable_00008_00018,0)})})
+watched-or({diseq(timetable_00008_00012,1),diseq(timetable_00008_00013,0),watched-and({w-literal(timetable_00008_00013,0),w-literal(timetable_00008_00014,0),w-literal(timetable_00008_00015,0),w-literal(timetable_00008_00016,0),w-literal(timetable_00008_00017,0),w-literal(timetable_00008_00018,0)})})
+watched-or({diseq(timetable_00008_00013,1),diseq(timetable_00008_00014,0),watched-and({w-literal(timetable_00008_00014,0),w-literal(timetable_00008_00015,0),w-literal(timetable_00008_00016,0),w-literal(timetable_00008_00017,0),w-literal(timetable_00008_00018,0)})})
+watched-or({diseq(timetable_00008_00014,1),diseq(timetable_00008_00015,0),watched-and({w-literal(timetable_00008_00015,0),w-literal(timetable_00008_00016,0),w-literal(timetable_00008_00017,0),w-literal(timetable_00008_00018,0)})})
+watched-or({diseq(timetable_00008_00015,1),diseq(timetable_00008_00016,0),watched-and({w-literal(timetable_00008_00016,0),w-literal(timetable_00008_00017,0),w-literal(timetable_00008_00018,0)})})
+watched-or({diseq(timetable_00008_00016,1),diseq(timetable_00008_00017,0),watched-and({w-literal(timetable_00008_00017,0),w-literal(timetable_00008_00018,0)})})
+watched-or({diseq(timetable_00008_00017,1),diseq(timetable_00008_00018,0),w-literal(timetable_00008_00018,0)})
+watched-or({diseq(timetable_00009_00010,1),diseq(timetable_00009_00011,0),watched-and({w-literal(timetable_00009_00011,0),w-literal(timetable_00009_00012,0),w-literal(timetable_00009_00013,0),w-literal(timetable_00009_00014,0),w-literal(timetable_00009_00015,0),w-literal(timetable_00009_00016,0),w-literal(timetable_00009_00017,0),w-literal(timetable_00009_00018,0),w-literal(timetable_00009_00019,0),w-literal(timetable_00009_00020,0)})})
+watched-or({diseq(timetable_00009_00011,1),diseq(timetable_00009_00012,0),watched-and({w-literal(timetable_00009_00012,0),w-literal(timetable_00009_00013,0),w-literal(timetable_00009_00014,0),w-literal(timetable_00009_00015,0),w-literal(timetable_00009_00016,0),w-literal(timetable_00009_00017,0),w-literal(timetable_00009_00018,0),w-literal(timetable_00009_00019,0),w-literal(timetable_00009_00020,0)})})
+watched-or({diseq(timetable_00009_00012,1),diseq(timetable_00009_00013,0),watched-and({w-literal(timetable_00009_00013,0),w-literal(timetable_00009_00014,0),w-literal(timetable_00009_00015,0),w-literal(timetable_00009_00016,0),w-literal(timetable_00009_00017,0),w-literal(timetable_00009_00018,0),w-literal(timetable_00009_00019,0),w-literal(timetable_00009_00020,0)})})
+watched-or({watched-and({w-literal(timetable_00009_00014,0),w-literal(timetable_00009_00015,0),w-literal(timetable_00009_00016,0),w-literal(timetable_00009_00017,0),w-literal(timetable_00009_00018,0),w-literal(timetable_00009_00019,0),w-literal(timetable_00009_00020,0)}),diseq(timetable_00009_00013,1),diseq(timetable_00009_00014,0)})
+watched-or({watched-and({w-literal(timetable_00009_00015,0),w-literal(timetable_00009_00016,0),w-literal(timetable_00009_00017,0),w-literal(timetable_00009_00018,0),w-literal(timetable_00009_00019,0),w-literal(timetable_00009_00020,0)}),diseq(timetable_00009_00014,1),diseq(timetable_00009_00015,0)})
+watched-or({diseq(timetable_00009_00015,1),diseq(timetable_00009_00016,0),watched-and({w-literal(timetable_00009_00016,0),w-literal(timetable_00009_00017,0),w-literal(timetable_00009_00018,0),w-literal(timetable_00009_00019,0),w-literal(timetable_00009_00020,0)})})
+watched-or({watched-and({w-literal(timetable_00009_00017,0),w-literal(timetable_00009_00018,0),w-literal(timetable_00009_00019,0),w-literal(timetable_00009_00020,0)}),diseq(timetable_00009_00016,1),diseq(timetable_00009_00017,0)})
+watched-or({watched-and({w-literal(timetable_00009_00018,0),w-literal(timetable_00009_00019,0),w-literal(timetable_00009_00020,0)}),diseq(timetable_00009_00017,1),diseq(timetable_00009_00018,0)})
+watched-or({diseq(timetable_00009_00018,1),diseq(timetable_00009_00019,0),watched-and({w-literal(timetable_00009_00019,0),w-literal(timetable_00009_00020,0)})})
+watched-or({diseq(timetable_00009_00019,1),diseq(timetable_00009_00020,0),w-literal(timetable_00009_00020,0)})
+watched-or({diseq(0,timetable_00010_00010),diseq(1,timetable_00010_00009),watched-and({w-literal(timetable_00010_00010,0),w-literal(timetable_00010_00011,0),w-literal(timetable_00010_00012,0),w-literal(timetable_00010_00013,0),w-literal(timetable_00010_00014,0),w-literal(timetable_00010_00015,0),w-literal(timetable_00010_00016,0),w-literal(timetable_00010_00017,0),w-literal(timetable_00010_00018,0),w-literal(timetable_00010_00019,0),w-literal(timetable_00010_00020,0)})})
+watched-or({watched-and({w-literal(timetable_00010_00011,0),w-literal(timetable_00010_00012,0),w-literal(timetable_00010_00013,0),w-literal(timetable_00010_00014,0),w-literal(timetable_00010_00015,0),w-literal(timetable_00010_00016,0),w-literal(timetable_00010_00017,0),w-literal(timetable_00010_00018,0),w-literal(timetable_00010_00019,0),w-literal(timetable_00010_00020,0)}),diseq(0,timetable_00010_00011),diseq(1,timetable_00010_00010)})
+watched-or({diseq(0,timetable_00010_00012),diseq(1,timetable_00010_00011),watched-and({w-literal(timetable_00010_00012,0),w-literal(timetable_00010_00013,0),w-literal(timetable_00010_00014,0),w-literal(timetable_00010_00015,0),w-literal(timetable_00010_00016,0),w-literal(timetable_00010_00017,0),w-literal(timetable_00010_00018,0),w-literal(timetable_00010_00019,0),w-literal(timetable_00010_00020,0)})})
+watched-or({watched-and({w-literal(timetable_00010_00013,0),w-literal(timetable_00010_00014,0),w-literal(timetable_00010_00015,0),w-literal(timetable_00010_00016,0),w-literal(timetable_00010_00017,0),w-literal(timetable_00010_00018,0),w-literal(timetable_00010_00019,0),w-literal(timetable_00010_00020,0)}),diseq(0,timetable_00010_00013),diseq(1,timetable_00010_00012)})
+watched-or({diseq(0,timetable_00010_00014),diseq(1,timetable_00010_00013),watched-and({w-literal(timetable_00010_00014,0),w-literal(timetable_00010_00015,0),w-literal(timetable_00010_00016,0),w-literal(timetable_00010_00017,0),w-literal(timetable_00010_00018,0),w-literal(timetable_00010_00019,0),w-literal(timetable_00010_00020,0)})})
+watched-or({watched-and({w-literal(timetable_00010_00015,0),w-literal(timetable_00010_00016,0),w-literal(timetable_00010_00017,0),w-literal(timetable_00010_00018,0),w-literal(timetable_00010_00019,0),w-literal(timetable_00010_00020,0)}),diseq(0,timetable_00010_00015),diseq(1,timetable_00010_00014)})
+watched-or({diseq(0,timetable_00010_00016),diseq(1,timetable_00010_00015),watched-and({w-literal(timetable_00010_00016,0),w-literal(timetable_00010_00017,0),w-literal(timetable_00010_00018,0),w-literal(timetable_00010_00019,0),w-literal(timetable_00010_00020,0)})})
+watched-or({watched-and({w-literal(timetable_00010_00017,0),w-literal(timetable_00010_00018,0),w-literal(timetable_00010_00019,0),w-literal(timetable_00010_00020,0)}),diseq(0,timetable_00010_00017),diseq(1,timetable_00010_00016)})
+watched-or({watched-and({w-literal(timetable_00010_00018,0),w-literal(timetable_00010_00019,0),w-literal(timetable_00010_00020,0)}),diseq(0,timetable_00010_00018),diseq(1,timetable_00010_00017)})
+watched-or({watched-and({w-literal(timetable_00010_00019,0),w-literal(timetable_00010_00020,0)}),diseq(0,timetable_00010_00019),diseq(1,timetable_00010_00018)})
+watched-or({diseq(0,timetable_00010_00020),diseq(1,timetable_00010_00019),w-literal(timetable_00010_00020,0)})
+watched-or({watched-and({w-literal(timetable_00011_00007,0),w-literal(timetable_00011_00008,0),w-literal(timetable_00011_00009,0),w-literal(timetable_00011_00010,0),w-literal(timetable_00011_00011,0),w-literal(timetable_00011_00012,0),w-literal(timetable_00011_00013,0),w-literal(timetable_00011_00014,0),w-literal(timetable_00011_00015,0),w-literal(timetable_00011_00016,0),w-literal(timetable_00011_00017,0),w-literal(timetable_00011_00018,0),w-literal(timetable_00011_00019,0),w-literal(timetable_00011_00020,0)}),diseq(timetable_00011_00006,1),diseq(timetable_00011_00007,0)})
+watched-or({watched-and({w-literal(timetable_00011_00008,0),w-literal(timetable_00011_00009,0),w-literal(timetable_00011_00010,0),w-literal(timetable_00011_00011,0),w-literal(timetable_00011_00012,0),w-literal(timetable_00011_00013,0),w-literal(timetable_00011_00014,0),w-literal(timetable_00011_00015,0),w-literal(timetable_00011_00016,0),w-literal(timetable_00011_00017,0),w-literal(timetable_00011_00018,0),w-literal(timetable_00011_00019,0),w-literal(timetable_00011_00020,0)}),diseq(timetable_00011_00007,1),diseq(timetable_00011_00008,0)})
+watched-or({watched-and({w-literal(timetable_00011_00009,0),w-literal(timetable_00011_00010,0),w-literal(timetable_00011_00011,0),w-literal(timetable_00011_00012,0),w-literal(timetable_00011_00013,0),w-literal(timetable_00011_00014,0),w-literal(timetable_00011_00015,0),w-literal(timetable_00011_00016,0),w-literal(timetable_00011_00017,0),w-literal(timetable_00011_00018,0),w-literal(timetable_00011_00019,0),w-literal(timetable_00011_00020,0)}),diseq(timetable_00011_00008,1),diseq(timetable_00011_00009,0)})
+watched-or({watched-and({w-literal(timetable_00011_00010,0),w-literal(timetable_00011_00011,0),w-literal(timetable_00011_00012,0),w-literal(timetable_00011_00013,0),w-literal(timetable_00011_00014,0),w-literal(timetable_00011_00015,0),w-literal(timetable_00011_00016,0),w-literal(timetable_00011_00017,0),w-literal(timetable_00011_00018,0),w-literal(timetable_00011_00019,0),w-literal(timetable_00011_00020,0)}),diseq(timetable_00011_00009,1),diseq(timetable_00011_00010,0)})
+watched-or({watched-and({w-literal(timetable_00011_00011,0),w-literal(timetable_00011_00012,0),w-literal(timetable_00011_00013,0),w-literal(timetable_00011_00014,0),w-literal(timetable_00011_00015,0),w-literal(timetable_00011_00016,0),w-literal(timetable_00011_00017,0),w-literal(timetable_00011_00018,0),w-literal(timetable_00011_00019,0),w-literal(timetable_00011_00020,0)}),diseq(timetable_00011_00010,1),diseq(timetable_00011_00011,0)})
+watched-or({watched-and({w-literal(timetable_00011_00012,0),w-literal(timetable_00011_00013,0),w-literal(timetable_00011_00014,0),w-literal(timetable_00011_00015,0),w-literal(timetable_00011_00016,0),w-literal(timetable_00011_00017,0),w-literal(timetable_00011_00018,0),w-literal(timetable_00011_00019,0),w-literal(timetable_00011_00020,0)}),diseq(timetable_00011_00011,1),diseq(timetable_00011_00012,0)})
+watched-or({diseq(timetable_00011_00012,1),diseq(timetable_00011_00013,0),watched-and({w-literal(timetable_00011_00013,0),w-literal(timetable_00011_00014,0),w-literal(timetable_00011_00015,0),w-literal(timetable_00011_00016,0),w-literal(timetable_00011_00017,0),w-literal(timetable_00011_00018,0),w-literal(timetable_00011_00019,0),w-literal(timetable_00011_00020,0)})})
+watched-or({watched-and({w-literal(timetable_00011_00014,0),w-literal(timetable_00011_00015,0),w-literal(timetable_00011_00016,0),w-literal(timetable_00011_00017,0),w-literal(timetable_00011_00018,0),w-literal(timetable_00011_00019,0),w-literal(timetable_00011_00020,0)}),diseq(timetable_00011_00013,1),diseq(timetable_00011_00014,0)})
+watched-or({watched-and({w-literal(timetable_00011_00015,0),w-literal(timetable_00011_00016,0),w-literal(timetable_00011_00017,0),w-literal(timetable_00011_00018,0),w-literal(timetable_00011_00019,0),w-literal(timetable_00011_00020,0)}),diseq(timetable_00011_00014,1),diseq(timetable_00011_00015,0)})
+watched-or({watched-and({w-literal(timetable_00011_00016,0),w-literal(timetable_00011_00017,0),w-literal(timetable_00011_00018,0),w-literal(timetable_00011_00019,0),w-literal(timetable_00011_00020,0)}),diseq(timetable_00011_00015,1),diseq(timetable_00011_00016,0)})
+watched-or({watched-and({w-literal(timetable_00011_00017,0),w-literal(timetable_00011_00018,0),w-literal(timetable_00011_00019,0),w-literal(timetable_00011_00020,0)}),diseq(timetable_00011_00016,1),diseq(timetable_00011_00017,0)})
+watched-or({diseq(timetable_00011_00017,1),diseq(timetable_00011_00018,0),watched-and({w-literal(timetable_00011_00018,0),w-literal(timetable_00011_00019,0),w-literal(timetable_00011_00020,0)})})
+watched-or({watched-and({w-literal(timetable_00011_00019,0),w-literal(timetable_00011_00020,0)}),diseq(timetable_00011_00018,1),diseq(timetable_00011_00019,0)})
+watched-or({diseq(timetable_00011_00019,1),diseq(timetable_00011_00020,0),w-literal(timetable_00011_00020,0)})
+weightedsumleq([2,3,3],[timetable_00003_00001,timetable_00004_00001,timetable_00002_00001],4)
+weightedsumleq([4,6,5,6],[timetable_00003_00002,timetable_00004_00002,timetable_00006_00002,timetable_00002_00002],9)
+weightedsumleq([4,6,5,6],[timetable_00003_00003,timetable_00004_00003,timetable_00006_00003,timetable_00002_00003],9)
+weightedsumleq([4,6,5,6],[timetable_00003_00004,timetable_00004_00004,timetable_00006_00004,timetable_00002_00004],9)
+weightedsumleq([9,4,6,5,6],[timetable_00007_00005,timetable_00003_00005,timetable_00004_00005,timetable_00006_00005,timetable_00002_00005],9)
+weightedsumleq([9,4,4,6,6,5,6],[timetable_00007_00006,timetable_00011_00006,timetable_00003_00006,timetable_00008_00006,timetable_00004_00006,timetable_00006_00006,timetable_00002_00006],9)
+weightedsumleq([9,4,4,6,6,5,6],[timetable_00007_00007,timetable_00011_00007,timetable_00003_00007,timetable_00008_00007,timetable_00004_00007,timetable_00006_00007,timetable_00002_00007],9)
+weightedsumleq([9,4,4,6,6,5,6],[timetable_00007_00008,timetable_00011_00008,timetable_00003_00008,timetable_00008_00008,timetable_00004_00008,timetable_00006_00008,timetable_00002_00008],9)
+weightedsumleq([9,4,4,6,6,5,6,6],[timetable_00007_00009,timetable_00011_00009,timetable_00003_00009,timetable_00008_00009,timetable_00004_00009,timetable_00006_00009,timetable_00010_00009,timetable_00002_00009],9)
+weightedsumleq([2,1],[timetable_00009_00010,timetable_00005_00010],2)
+weightedsumleq([9,4,4,6,6,5,6,6],[timetable_00007_00010,timetable_00011_00010,timetable_00003_00010,timetable_00008_00010,timetable_00004_00010,timetable_00006_00010,timetable_00010_00010,timetable_00002_00010],9)
+weightedsumleq([2,1],[timetable_00009_00011,timetable_00005_00011],2)
+weightedsumleq([9,4,6,6,5,6,6],[timetable_00007_00011,timetable_00011_00011,timetable_00008_00011,timetable_00004_00011,timetable_00006_00011,timetable_00010_00011,timetable_00002_00011],9)
+weightedsumleq([2,1],[timetable_00009_00012,timetable_00005_00012],2)
+weightedsumleq([9,4,6,6,5,6,6],[timetable_00007_00012,timetable_00011_00012,timetable_00008_00012,timetable_00004_00012,timetable_00006_00012,timetable_00010_00012,timetable_00002_00012],9)
+weightedsumleq([2,1],[timetable_00009_00013,timetable_00005_00013],2)
+weightedsumleq([9,4,6,6,5,6,6],[timetable_00007_00013,timetable_00011_00013,timetable_00008_00013,timetable_00004_00013,timetable_00006_00013,timetable_00010_00013,timetable_00002_00013],9)
+weightedsumleq([2,1],[timetable_00009_00014,timetable_00005_00014],2)
+weightedsumleq([9,4,6,6,6,6],[timetable_00007_00014,timetable_00011_00014,timetable_00008_00014,timetable_00004_00014,timetable_00010_00014,timetable_00002_00014],9)
+weightedsumleq([2,1],[timetable_00009_00015,timetable_00005_00015],2)
+weightedsumleq([9,4,6,6,6,6],[timetable_00007_00015,timetable_00011_00015,timetable_00008_00015,timetable_00004_00015,timetable_00010_00015,timetable_00002_00015],9)
+weightedsumleq([2,1],[timetable_00009_00016,timetable_00005_00016],2)
+weightedsumleq([9,4,6,6,6,6],[timetable_00007_00016,timetable_00011_00016,timetable_00008_00016,timetable_00004_00016,timetable_00010_00016,timetable_00002_00016],9)
+weightedsumleq([2,1],[timetable_00009_00017,timetable_00005_00017],2)
+weightedsumleq([9,4,6,6,6,6],[timetable_00007_00017,timetable_00011_00017,timetable_00008_00017,timetable_00004_00017,timetable_00010_00017,timetable_00002_00017],9)
+weightedsumleq([2,1],[timetable_00009_00018,timetable_00005_00018],2)
+weightedsumleq([9,4,6,6],[timetable_00007_00018,timetable_00011_00018,timetable_00008_00018,timetable_00010_00018],9)
+weightedsumleq([2,3],[timetable_00011_00019,timetable_00010_00019],4)
+weightedsumleq([2,3],[timetable_00011_00020,timetable_00010_00020],4)
+product(timetable_00011_00006, timetable_00002_00006, 0)
+product(timetable_00011_00007, timetable_00002_00007, 0)
+product(timetable_00011_00008, timetable_00002_00008, 0)
+product(timetable_00011_00009, timetable_00002_00009, 0)
+product(timetable_00011_00010, timetable_00002_00010, 0)
+product(timetable_00011_00011, timetable_00002_00011, 0)
+product(timetable_00011_00012, timetable_00002_00012, 0)
+product(timetable_00011_00013, timetable_00002_00013, 0)
+product(timetable_00011_00014, timetable_00002_00014, 0)
+product(timetable_00011_00015, timetable_00002_00015, 0)
+product(timetable_00011_00016, timetable_00002_00016, 0)
+product(timetable_00011_00017, timetable_00002_00017, 0)
+product(timetable_00003_00002, timetable_00005_00002, 0)
+product(timetable_00003_00003, timetable_00005_00003, 0)
+product(timetable_00003_00004, timetable_00005_00004, 0)
+product(timetable_00003_00005, timetable_00005_00005, 0)
+product(timetable_00003_00006, timetable_00005_00006, 0)
+product(timetable_00003_00007, timetable_00005_00007, 0)
+product(timetable_00003_00008, timetable_00005_00008, 0)
+product(timetable_00003_00009, timetable_00005_00009, 0)
+product(timetable_00003_00010, timetable_00005_00010, 0)
+product(timetable_00003_00002, timetable_00006_00002, 0)
+product(timetable_00003_00003, timetable_00006_00003, 0)
+product(timetable_00003_00004, timetable_00006_00004, 0)
+product(timetable_00003_00005, timetable_00006_00005, 0)
+product(timetable_00003_00006, timetable_00006_00006, 0)
+product(timetable_00003_00007, timetable_00006_00007, 0)
+product(timetable_00003_00008, timetable_00006_00008, 0)
+product(timetable_00003_00009, timetable_00006_00009, 0)
+product(timetable_00003_00010, timetable_00006_00010, 0)
+product(timetable_00008_00006, timetable_00004_00006, 0)
+product(timetable_00008_00007, timetable_00004_00007, 0)
+product(timetable_00008_00008, timetable_00004_00008, 0)
+product(timetable_00008_00009, timetable_00004_00009, 0)
+product(timetable_00008_00010, timetable_00004_00010, 0)
+product(timetable_00008_00011, timetable_00004_00011, 0)
+product(timetable_00008_00012, timetable_00004_00012, 0)
+product(timetable_00008_00013, timetable_00004_00013, 0)
+product(timetable_00008_00014, timetable_00004_00014, 0)
+product(timetable_00008_00015, timetable_00004_00015, 0)
+product(timetable_00008_00016, timetable_00004_00016, 0)
+product(timetable_00008_00017, timetable_00004_00017, 0)
+product(timetable_00009_00010, timetable_00005_00010, 0)
+product(timetable_00009_00011, timetable_00005_00011, 0)
+product(timetable_00009_00012, timetable_00005_00012, 0)
+product(timetable_00009_00013, timetable_00005_00013, 0)
+product(timetable_00009_00014, timetable_00005_00014, 0)
+product(timetable_00009_00015, timetable_00005_00015, 0)
+product(timetable_00009_00016, timetable_00005_00016, 0)
+product(timetable_00009_00017, timetable_00005_00017, 0)
+product(timetable_00009_00018, timetable_00005_00018, 0)
+product(timetable_00005_00009, timetable_00010_00009, 0)
+product(timetable_00005_00010, timetable_00010_00010, 0)
+product(timetable_00005_00011, timetable_00010_00011, 0)
+product(timetable_00005_00012, timetable_00010_00012, 0)
+product(timetable_00005_00013, timetable_00010_00013, 0)
+product(timetable_00005_00014, timetable_00010_00014, 0)
+product(timetable_00005_00015, timetable_00010_00015, 0)
+product(timetable_00005_00016, timetable_00010_00016, 0)
+product(timetable_00005_00017, timetable_00010_00017, 0)
+product(timetable_00005_00018, timetable_00010_00018, 0)
+product(timetable_00007_00005, timetable_00006_00005, 0)
+product(timetable_00007_00006, timetable_00006_00006, 0)
+product(timetable_00007_00007, timetable_00006_00007, 0)
+product(timetable_00007_00008, timetable_00006_00008, 0)
+product(timetable_00007_00009, timetable_00006_00009, 0)
+product(timetable_00007_00010, timetable_00006_00010, 0)
+product(timetable_00007_00011, timetable_00006_00011, 0)
+product(timetable_00007_00012, timetable_00006_00012, 0)
+product(timetable_00007_00013, timetable_00006_00013, 0)
+product(timetable_00008_00006, timetable_00006_00006, 0)
+product(timetable_00008_00007, timetable_00006_00007, 0)
+product(timetable_00008_00008, timetable_00006_00008, 0)
+product(timetable_00008_00009, timetable_00006_00009, 0)
+product(timetable_00008_00010, timetable_00006_00010, 0)
+product(timetable_00008_00011, timetable_00006_00011, 0)
+product(timetable_00008_00012, timetable_00006_00012, 0)
+product(timetable_00008_00013, timetable_00006_00013, 0)
+product(timetable_00011_00006, timetable_00006_00006, 0)
+product(timetable_00011_00007, timetable_00006_00007, 0)
+product(timetable_00011_00008, timetable_00006_00008, 0)
+product(timetable_00011_00009, timetable_00006_00009, 0)
+product(timetable_00011_00010, timetable_00006_00010, 0)
+product(timetable_00011_00011, timetable_00006_00011, 0)
+product(timetable_00011_00012, timetable_00006_00012, 0)
+product(timetable_00011_00013, timetable_00006_00013, 0)
+product(timetable_00007_00010, timetable_00009_00010, 0)
+product(timetable_00007_00011, timetable_00009_00011, 0)
+product(timetable_00007_00012, timetable_00009_00012, 0)
+product(timetable_00007_00013, timetable_00009_00013, 0)
+product(timetable_00007_00014, timetable_00009_00014, 0)
+product(timetable_00007_00015, timetable_00009_00015, 0)
+product(timetable_00007_00016, timetable_00009_00016, 0)
+product(timetable_00007_00017, timetable_00009_00017, 0)
+product(timetable_00007_00018, timetable_00009_00018, 0)
+product(timetable_00007_00009, timetable_00010_00009, 0)
+product(timetable_00007_00010, timetable_00010_00010, 0)
+product(timetable_00007_00011, timetable_00010_00011, 0)
+product(timetable_00007_00012, timetable_00010_00012, 0)
+product(timetable_00007_00013, timetable_00010_00013, 0)
+product(timetable_00007_00014, timetable_00010_00014, 0)
+product(timetable_00007_00015, timetable_00010_00015, 0)
+product(timetable_00007_00016, timetable_00010_00016, 0)
+product(timetable_00007_00017, timetable_00010_00017, 0)
+product(timetable_00007_00018, timetable_00010_00018, 0)
+product(timetable_00008_00010, timetable_00009_00010, 0)
+product(timetable_00008_00011, timetable_00009_00011, 0)
+product(timetable_00008_00012, timetable_00009_00012, 0)
+product(timetable_00008_00013, timetable_00009_00013, 0)
+product(timetable_00008_00014, timetable_00009_00014, 0)
+product(timetable_00008_00015, timetable_00009_00015, 0)
+product(timetable_00008_00016, timetable_00009_00016, 0)
+product(timetable_00008_00017, timetable_00009_00017, 0)
+product(timetable_00008_00018, timetable_00009_00018, 0)
+ineq(aux102, aux82, 0)
+ineq(aux103, aux48, 0)
+ineq(aux104, aux41, 0)
+ineq(aux105, aux36, 0)
+ineq(aux106, aux30, 0)
+ineq(aux107, aux29, 0)
+ineq(aux108, aux11, 0)
+ineq(aux109, aux6, 0)
+reifyimply(sumleq([timetable_00011_00006,timetable_00011_00007,timetable_00011_00008,timetable_00011_00009,timetable_00011_00010,timetable_00011_00011,timetable_00011_00012,timetable_00011_00013,timetable_00011_00014],0), aux110)
+reifyimply(sumleq([timetable_00011_00006,timetable_00011_00007,timetable_00011_00008,timetable_00011_00009,timetable_00011_00010,timetable_00011_00011,timetable_00011_00012,timetable_00011_00013,timetable_00011_00014,timetable_00011_00015],0), aux111)
+reifyimply(sumleq([timetable_00011_00006,timetable_00011_00007,timetable_00011_00008,timetable_00011_00009,timetable_00011_00010,timetable_00011_00011,timetable_00011_00012,timetable_00011_00013,timetable_00011_00014,timetable_00011_00015,timetable_00011_00016],0), aux112)
+reifyimply(sumleq([timetable_00011_00006,timetable_00011_00007,timetable_00011_00008,timetable_00011_00009,timetable_00011_00010,timetable_00011_00011,timetable_00011_00012,timetable_00011_00013,timetable_00011_00014,timetable_00011_00015,timetable_00011_00016,timetable_00011_00017],0), aux113)
+reifyimply(w-literal(timetable_00005_00002,0), aux92)
+reifyimply(sumleq([timetable_00005_00002,timetable_00005_00003],0), aux91)
+reifyimply(sumleq([timetable_00005_00002,timetable_00005_00003,timetable_00005_00004],0), aux90)
+reifyimply(sumleq([timetable_00005_00002,timetable_00005_00003,timetable_00005_00004,timetable_00005_00005],0), aux89)
+reifyimply(sumleq([timetable_00005_00002,timetable_00005_00003,timetable_00005_00004,timetable_00005_00005,timetable_00005_00006],0), aux88)
+reifyimply(sumleq([timetable_00005_00002,timetable_00005_00003,timetable_00005_00004,timetable_00005_00005,timetable_00005_00006,timetable_00005_00007],0), aux87)
+reifyimply(sumleq([timetable_00005_00002,timetable_00005_00003,timetable_00005_00004,timetable_00005_00005,timetable_00005_00006,timetable_00005_00007,timetable_00005_00008],0), aux86)
+reifyimply(sumleq([timetable_00005_00002,timetable_00005_00003,timetable_00005_00004,timetable_00005_00005,timetable_00005_00006,timetable_00005_00007,timetable_00005_00008,timetable_00005_00009],0), aux85)
+reifyimply(sumleq([timetable_00005_00002,timetable_00005_00003,timetable_00005_00004,timetable_00005_00005,timetable_00005_00006,timetable_00005_00007,timetable_00005_00008,timetable_00005_00009,timetable_00005_00010],0), aux84)
+reifyimply(w-literal(timetable_00006_00002,0), aux92)
+reifyimply(sumleq([timetable_00006_00002,timetable_00006_00003],0), aux91)
+reifyimply(sumleq([timetable_00006_00002,timetable_00006_00003,timetable_00006_00004],0), aux90)
+reifyimply(sumleq([timetable_00006_00002,timetable_00006_00003,timetable_00006_00004,timetable_00006_00005],0), aux89)
+reifyimply(sumleq([timetable_00006_00002,timetable_00006_00003,timetable_00006_00004,timetable_00006_00005,timetable_00006_00006],0), aux88)
+reifyimply(sumleq([timetable_00006_00002,timetable_00006_00003,timetable_00006_00004,timetable_00006_00005,timetable_00006_00006,timetable_00006_00007],0), aux87)
+reifyimply(sumleq([timetable_00006_00002,timetable_00006_00003,timetable_00006_00004,timetable_00006_00005,timetable_00006_00006,timetable_00006_00007,timetable_00006_00008],0), aux86)
+reifyimply(sumleq([timetable_00006_00002,timetable_00006_00003,timetable_00006_00004,timetable_00006_00005,timetable_00006_00006,timetable_00006_00007,timetable_00006_00008,timetable_00006_00009],0), aux85)
+reifyimply(sumleq([timetable_00006_00002,timetable_00006_00003,timetable_00006_00004,timetable_00006_00005,timetable_00006_00006,timetable_00006_00007,timetable_00006_00008,timetable_00006_00009,timetable_00006_00010],0), aux84)
+ineq(aux114, aux83, 0)
+ineq(aux115, aux50, 0)
+ineq(aux116, aux42, 0)
+ineq(aux117, aux38, 0)
+ineq(aux118, aux31, 0)
+ineq(aux119, aux25, 0)
+ineq(aux120, aux16, 0)
+ineq(aux121, aux7, 0)
+reifyimply(sumleq([timetable_00008_00006,timetable_00008_00007,timetable_00008_00008,timetable_00008_00009,timetable_00008_00010,timetable_00008_00011,timetable_00008_00012,timetable_00008_00013,timetable_00008_00014],0), aux122)
+reifyimply(sumleq([timetable_00008_00006,timetable_00008_00007,timetable_00008_00008,timetable_00008_00009,timetable_00008_00010,timetable_00008_00011,timetable_00008_00012,timetable_00008_00013,timetable_00008_00014,timetable_00008_00015],0), aux123)
+reifyimply(sumleq([timetable_00008_00006,timetable_00008_00007,timetable_00008_00008,timetable_00008_00009,timetable_00008_00010,timetable_00008_00011,timetable_00008_00012,timetable_00008_00013,timetable_00008_00014,timetable_00008_00015,timetable_00008_00016],0), aux124)
+reifyimply(sumleq([timetable_00008_00006,timetable_00008_00007,timetable_00008_00008,timetable_00008_00009,timetable_00008_00010,timetable_00008_00011,timetable_00008_00012,timetable_00008_00013,timetable_00008_00014,timetable_00008_00015,timetable_00008_00016,timetable_00008_00017],0), aux125)
+ineq(aux100, aux71, 0)
+ineq(aux101, aux49, 0)
+ineq(aux95, aux43, 0)
+ineq(aux96, aux35, 0)
+ineq(aux93, aux33, 0)
+ineq(aux94, aux26, 0)
+ineq(aux98, aux12, 0)
+ineq(aux99, aux9, 0)
+ineq(aux97, aux5, 0)
+ineq(aux126, aux81, 0)
+ineq(aux100, aux47, 0)
+ineq(aux101, aux40, 0)
+ineq(aux95, aux39, 0)
+ineq(aux96, aux32, 0)
+ineq(aux93, aux19, 0)
+ineq(aux94, aux17, 0)
+ineq(aux98, aux10, 0)
+ineq(aux99, aux4, 0)
+ineq(aux97, aux2, 0)
+reifyimply(w-literal(timetable_00007_00005,0), aux127)
+reifyimply(sumleq([timetable_00007_00005,timetable_00007_00006],0), aux70)
+reifyimply(sumleq([timetable_00007_00005,timetable_00007_00006,timetable_00007_00007],0), aux69)
+reifyimply(sumleq([timetable_00007_00005,timetable_00007_00006,timetable_00007_00007,timetable_00007_00008],0), aux68)
+reifyimply(sumleq([timetable_00007_00005,timetable_00007_00006,timetable_00007_00007,timetable_00007_00008,timetable_00007_00009],0), aux67)
+reifyimply(sumleq([timetable_00007_00005,timetable_00007_00006,timetable_00007_00007,timetable_00007_00008,timetable_00007_00009,timetable_00007_00010],0), aux66)
+reifyimply(sumleq([timetable_00007_00005,timetable_00007_00006,timetable_00007_00007,timetable_00007_00008,timetable_00007_00009,timetable_00007_00010,timetable_00007_00011],0), aux65)
+reifyimply(sumleq([timetable_00007_00005,timetable_00007_00006,timetable_00007_00007,timetable_00007_00008,timetable_00007_00009,timetable_00007_00010,timetable_00007_00011,timetable_00007_00012],0), aux64)
+reifyimply(sumleq([timetable_00007_00005,timetable_00007_00006,timetable_00007_00007,timetable_00007_00008,timetable_00007_00009,timetable_00007_00010,timetable_00007_00011,timetable_00007_00012,timetable_00007_00013],0), aux63)
+ineq(aux70, aux83, 0)
+ineq(aux69, aux50, 0)
+ineq(aux68, aux42, 0)
+ineq(aux67, aux38, 0)
+ineq(aux66, aux31, 0)
+ineq(aux65, aux25, 0)
+ineq(aux64, aux16, 0)
+ineq(aux63, aux7, 0)
+ineq(aux70, aux82, 0)
+ineq(aux69, aux48, 0)
+ineq(aux68, aux41, 0)
+ineq(aux67, aux36, 0)
+ineq(aux66, aux30, 0)
+ineq(aux65, aux29, 0)
+ineq(aux64, aux11, 0)
+ineq(aux63, aux6, 0)
+ineq(aux59, aux71, 0)
+ineq(aux60, aux49, 0)
+ineq(aux62, aux43, 0)
+ineq(aux61, aux35, 0)
+ineq(aux56, aux33, 0)
+ineq(aux55, aux26, 0)
+ineq(aux58, aux12, 0)
+ineq(aux57, aux9, 0)
+ineq(aux54, aux5, 0)
+ineq(aux128, aux81, 0)
+ineq(aux59, aux47, 0)
+ineq(aux60, aux40, 0)
+ineq(aux62, aux39, 0)
+ineq(aux61, aux32, 0)
+ineq(aux56, aux19, 0)
+ineq(aux55, aux17, 0)
+ineq(aux58, aux10, 0)
+ineq(aux57, aux4, 0)
+ineq(aux54, aux2, 0)
+ineq(aux129, aux71, 0)
+ineq(aux130, aux49, 0)
+ineq(aux131, aux43, 0)
+ineq(aux132, aux35, 0)
+ineq(aux133, aux33, 0)
+ineq(aux134, aux26, 0)
+ineq(aux135, aux12, 0)
+ineq(aux136, aux9, 0)
+ineq(aux137, aux5, 0)
+reifyimply(w-literal(aux15,0), aux78)
+reifyimply(w-literal(aux14,0), !aux74)
+reifyimply(w-literal(aux24,0), !aux77)
+reifyimply(w-literal(aux27,0), !aux75)
+reifyimply(w-literal(aux21,0), aux79)
+reifyimply(w-literal(aux20,0), !aux72)
+reifyimply(w-literal(aux34,0), !aux76)
+reifyimply(w-literal(aux52,0), !aux73)
+reifyimply(w-literal(aux51,0), aux80)
+sumleq([timetable_00011_00006,timetable_00011_00007,timetable_00011_00008,timetable_00011_00009,timetable_00011_00010,timetable_00011_00011,timetable_00011_00012,timetable_00011_00013,timetable_00011_00014,timetable_00011_00015,timetable_00011_00016,timetable_00011_00017,timetable_00011_00018,timetable_00011_00019,timetable_00011_00020],3)
+sumgeq([timetable_00011_00006,timetable_00011_00007,timetable_00011_00008,timetable_00011_00009,timetable_00011_00010,timetable_00011_00011,timetable_00011_00012,timetable_00011_00013,timetable_00011_00014,timetable_00011_00015,timetable_00011_00016,timetable_00011_00017,timetable_00011_00018,timetable_00011_00019,timetable_00011_00020],3)
+sumleq([timetable_00008_00006,timetable_00008_00007,timetable_00008_00008,timetable_00008_00009,timetable_00008_00010,timetable_00008_00011,timetable_00008_00012,timetable_00008_00013,timetable_00008_00014,timetable_00008_00015,timetable_00008_00016,timetable_00008_00017,timetable_00008_00018],1)
+sumgeq([timetable_00008_00006,timetable_00008_00007,timetable_00008_00008,timetable_00008_00009,timetable_00008_00010,timetable_00008_00011,timetable_00008_00012,timetable_00008_00013,timetable_00008_00014,timetable_00008_00015,timetable_00008_00016,timetable_00008_00017,timetable_00008_00018],1)
+sumleq([timetable_00009_00010,timetable_00009_00011,timetable_00009_00012,timetable_00009_00013,timetable_00009_00014,timetable_00009_00015,timetable_00009_00016,timetable_00009_00017,timetable_00009_00018,timetable_00009_00019,timetable_00009_00020],2)
+sumgeq([timetable_00009_00010,timetable_00009_00011,timetable_00009_00012,timetable_00009_00013,timetable_00009_00014,timetable_00009_00015,timetable_00009_00016,timetable_00009_00017,timetable_00009_00018,timetable_00009_00019,timetable_00009_00020],2)
+sumleq([timetable_00007_00010,timetable_00011_00010,timetable_00003_00010,timetable_00008_00010,timetable_00004_00010,timetable_00009_00010,timetable_00005_00010,timetable_00006_00010,timetable_00010_00010,timetable_00002_00010],aux8)
+sumgeq([timetable_00007_00010,timetable_00011_00010,timetable_00003_00010,timetable_00008_00010,timetable_00004_00010,timetable_00009_00010,timetable_00005_00010,timetable_00006_00010,timetable_00010_00010,timetable_00002_00010],aux8)
+sumleq([timetable_00007_00009,timetable_00011_00009,timetable_00003_00009,timetable_00008_00009,timetable_00004_00009,timetable_00005_00009,timetable_00006_00009,timetable_00010_00009,timetable_00002_00009],aux13)
+sumgeq([timetable_00007_00009,timetable_00011_00009,timetable_00003_00009,timetable_00008_00009,timetable_00004_00009,timetable_00005_00009,timetable_00006_00009,timetable_00010_00009,timetable_00002_00009],aux13)
+sumleq([timetable_00007_00013,timetable_00011_00013,timetable_00008_00013,timetable_00004_00013,timetable_00009_00013,timetable_00005_00013,timetable_00006_00013,timetable_00010_00013,timetable_00002_00013],aux14)
+sumgeq([timetable_00007_00013,timetable_00011_00013,timetable_00008_00013,timetable_00004_00013,timetable_00009_00013,timetable_00005_00013,timetable_00006_00013,timetable_00010_00013,timetable_00002_00013],aux14)
+sumleq([timetable_00007_00012,timetable_00011_00012,timetable_00008_00012,timetable_00004_00012,timetable_00009_00012,timetable_00005_00012,timetable_00006_00012,timetable_00010_00012,timetable_00002_00012],aux15)
+sumgeq([timetable_00007_00012,timetable_00011_00012,timetable_00008_00012,timetable_00004_00012,timetable_00009_00012,timetable_00005_00012,timetable_00006_00012,timetable_00010_00012,timetable_00002_00012],aux15)
+sumleq([timetable_00007_00011,timetable_00011_00011,timetable_00008_00011,timetable_00004_00011,timetable_00009_00011,timetable_00005_00011,timetable_00006_00011,timetable_00010_00011,timetable_00002_00011],aux18)
+sumgeq([timetable_00007_00011,timetable_00011_00011,timetable_00008_00011,timetable_00004_00011,timetable_00009_00011,timetable_00005_00011,timetable_00006_00011,timetable_00010_00011,timetable_00002_00011],aux18)
+sumleq([timetable_00007_00017,timetable_00011_00017,timetable_00008_00017,timetable_00004_00017,timetable_00009_00017,timetable_00005_00017,timetable_00010_00017,timetable_00002_00017],aux20)
+sumgeq([timetable_00007_00017,timetable_00011_00017,timetable_00008_00017,timetable_00004_00017,timetable_00009_00017,timetable_00005_00017,timetable_00010_00017,timetable_00002_00017],aux20)
+sumleq([timetable_00007_00016,timetable_00011_00016,timetable_00008_00016,timetable_00004_00016,timetable_00009_00016,timetable_00005_00016,timetable_00010_00016,timetable_00002_00016],aux21)
+sumgeq([timetable_00007_00016,timetable_00011_00016,timetable_00008_00016,timetable_00004_00016,timetable_00009_00016,timetable_00005_00016,timetable_00010_00016,timetable_00002_00016],aux21)
+sumleq([timetable_00007_00008,timetable_00011_00008,timetable_00003_00008,timetable_00008_00008,timetable_00004_00008,timetable_00005_00008,timetable_00006_00008,timetable_00002_00008],aux22)
+sumgeq([timetable_00007_00008,timetable_00011_00008,timetable_00003_00008,timetable_00008_00008,timetable_00004_00008,timetable_00005_00008,timetable_00006_00008,timetable_00002_00008],aux22)
+sumleq([timetable_00007_00006,timetable_00011_00006,timetable_00003_00006,timetable_00008_00006,timetable_00004_00006,timetable_00005_00006,timetable_00006_00006,timetable_00002_00006],aux23)
+sumgeq([timetable_00007_00006,timetable_00011_00006,timetable_00003_00006,timetable_00008_00006,timetable_00004_00006,timetable_00005_00006,timetable_00006_00006,timetable_00002_00006],aux23)
+sumleq([timetable_00007_00014,timetable_00011_00014,timetable_00008_00014,timetable_00004_00014,timetable_00009_00014,timetable_00005_00014,timetable_00010_00014,timetable_00002_00014],aux24)
+sumgeq([timetable_00007_00014,timetable_00011_00014,timetable_00008_00014,timetable_00004_00014,timetable_00009_00014,timetable_00005_00014,timetable_00010_00014,timetable_00002_00014],aux24)
+sumleq([timetable_00007_00015,timetable_00011_00015,timetable_00008_00015,timetable_00004_00015,timetable_00009_00015,timetable_00005_00015,timetable_00010_00015,timetable_00002_00015],aux27)
+sumgeq([timetable_00007_00015,timetable_00011_00015,timetable_00008_00015,timetable_00004_00015,timetable_00009_00015,timetable_00005_00015,timetable_00010_00015,timetable_00002_00015],aux27)
+sumleq([timetable_00007_00007,timetable_00011_00007,timetable_00003_00007,timetable_00008_00007,timetable_00004_00007,timetable_00005_00007,timetable_00006_00007,timetable_00002_00007],aux28)
+sumgeq([timetable_00007_00007,timetable_00011_00007,timetable_00003_00007,timetable_00008_00007,timetable_00004_00007,timetable_00005_00007,timetable_00006_00007,timetable_00002_00007],aux28)
+sumleq([timetable_00007_00018,timetable_00011_00018,timetable_00008_00018,timetable_00009_00018,timetable_00005_00018,timetable_00010_00018],aux34)
+sumgeq([timetable_00007_00018,timetable_00011_00018,timetable_00008_00018,timetable_00009_00018,timetable_00005_00018,timetable_00010_00018],aux34)
+sumleq([timetable_00007_00005,timetable_00003_00005,timetable_00004_00005,timetable_00005_00005,timetable_00006_00005,timetable_00002_00005],aux37)
+sumgeq([timetable_00007_00005,timetable_00003_00005,timetable_00004_00005,timetable_00005_00005,timetable_00006_00005,timetable_00002_00005],aux37)
+sumleq([timetable_00003_00004,timetable_00004_00004,timetable_00005_00004,timetable_00006_00004,timetable_00002_00004],aux44)
+sumgeq([timetable_00003_00004,timetable_00004_00004,timetable_00005_00004,timetable_00006_00004,timetable_00002_00004],aux44)
+sumleq([timetable_00003_00003,timetable_00004_00003,timetable_00005_00003,timetable_00006_00003,timetable_00002_00003],aux45)
+sumgeq([timetable_00003_00003,timetable_00004_00003,timetable_00005_00003,timetable_00006_00003,timetable_00002_00003],aux45)
+sumleq([timetable_00003_00002,timetable_00004_00002,timetable_00005_00002,timetable_00006_00002,timetable_00002_00002],aux46)
+sumgeq([timetable_00003_00002,timetable_00004_00002,timetable_00005_00002,timetable_00006_00002,timetable_00002_00002],aux46)
+sumleq([timetable_00011_00020,timetable_00009_00020,timetable_00010_00020],aux51)
+sumgeq([timetable_00011_00020,timetable_00009_00020,timetable_00010_00020],aux51)
+sumleq([timetable_00011_00019,timetable_00009_00019,timetable_00010_00019],aux52)
+sumgeq([timetable_00011_00019,timetable_00009_00019,timetable_00010_00019],aux52)
+sumleq([timetable_00002_00001,timetable_00002_00002,timetable_00002_00003,timetable_00002_00004,timetable_00002_00005,timetable_00002_00006,timetable_00002_00007,timetable_00002_00008,timetable_00002_00009,timetable_00002_00010,timetable_00002_00011,timetable_00002_00012,timetable_00002_00013,timetable_00002_00014,timetable_00002_00015,timetable_00002_00016,timetable_00002_00017],3)
+sumgeq([timetable_00002_00001,timetable_00002_00002,timetable_00002_00003,timetable_00002_00004,timetable_00002_00005,timetable_00002_00006,timetable_00002_00007,timetable_00002_00008,timetable_00002_00009,timetable_00002_00010,timetable_00002_00011,timetable_00002_00012,timetable_00002_00013,timetable_00002_00014,timetable_00002_00015,timetable_00002_00016,timetable_00002_00017],3)
+sumleq([timetable_00003_00001,timetable_00003_00002,timetable_00003_00003,timetable_00003_00004,timetable_00003_00005,timetable_00003_00006,timetable_00003_00007,timetable_00003_00008,timetable_00003_00009,timetable_00003_00010],1)
+sumgeq([timetable_00003_00001,timetable_00003_00002,timetable_00003_00003,timetable_00003_00004,timetable_00003_00005,timetable_00003_00006,timetable_00003_00007,timetable_00003_00008,timetable_00003_00009,timetable_00003_00010],1)
+sumleq([timetable_00004_00001,timetable_00004_00002,timetable_00004_00003,timetable_00004_00004,timetable_00004_00005,timetable_00004_00006,timetable_00004_00007,timetable_00004_00008,timetable_00004_00009,timetable_00004_00010,timetable_00004_00011,timetable_00004_00012,timetable_00004_00013,timetable_00004_00014,timetable_00004_00015,timetable_00004_00016,timetable_00004_00017],2)
+sumgeq([timetable_00004_00001,timetable_00004_00002,timetable_00004_00003,timetable_00004_00004,timetable_00004_00005,timetable_00004_00006,timetable_00004_00007,timetable_00004_00008,timetable_00004_00009,timetable_00004_00010,timetable_00004_00011,timetable_00004_00012,timetable_00004_00013,timetable_00004_00014,timetable_00004_00015,timetable_00004_00016,timetable_00004_00017],2)
+sumleq([timetable_00005_00002,timetable_00005_00003,timetable_00005_00004,timetable_00005_00005,timetable_00005_00006,timetable_00005_00007,timetable_00005_00008,timetable_00005_00009,timetable_00005_00010,timetable_00005_00011,timetable_00005_00012,timetable_00005_00013,timetable_00005_00014,timetable_00005_00015,timetable_00005_00016,timetable_00005_00017,timetable_00005_00018],1)
+sumgeq([timetable_00005_00002,timetable_00005_00003,timetable_00005_00004,timetable_00005_00005,timetable_00005_00006,timetable_00005_00007,timetable_00005_00008,timetable_00005_00009,timetable_00005_00010,timetable_00005_00011,timetable_00005_00012,timetable_00005_00013,timetable_00005_00014,timetable_00005_00015,timetable_00005_00016,timetable_00005_00017,timetable_00005_00018],1)
+sumleq([timetable_00006_00002,timetable_00006_00003,timetable_00006_00004,timetable_00006_00005,timetable_00006_00006,timetable_00006_00007,timetable_00006_00008,timetable_00006_00009,timetable_00006_00010,timetable_00006_00011,timetable_00006_00012,timetable_00006_00013],3)
+sumgeq([timetable_00006_00002,timetable_00006_00003,timetable_00006_00004,timetable_00006_00005,timetable_00006_00006,timetable_00006_00007,timetable_00006_00008,timetable_00006_00009,timetable_00006_00010,timetable_00006_00011,timetable_00006_00012,timetable_00006_00013],3)
+sumleq([timetable_00007_00005,timetable_00007_00006,timetable_00007_00007,timetable_00007_00008,timetable_00007_00009,timetable_00007_00010,timetable_00007_00011,timetable_00007_00012,timetable_00007_00013,timetable_00007_00014,timetable_00007_00015,timetable_00007_00016,timetable_00007_00017,timetable_00007_00018],4)
+sumgeq([timetable_00007_00005,timetable_00007_00006,timetable_00007_00007,timetable_00007_00008,timetable_00007_00009,timetable_00007_00010,timetable_00007_00011,timetable_00007_00012,timetable_00007_00013,timetable_00007_00014,timetable_00007_00015,timetable_00007_00016,timetable_00007_00017,timetable_00007_00018],4)
+sumleq([timetable_00010_00009,timetable_00010_00010,timetable_00010_00011,timetable_00010_00012,timetable_00010_00013,timetable_00010_00014,timetable_00010_00015,timetable_00010_00016,timetable_00010_00017,timetable_00010_00018,timetable_00010_00019,timetable_00010_00020],1)
+sumgeq([timetable_00010_00009,timetable_00010_00010,timetable_00010_00011,timetable_00010_00012,timetable_00010_00013,timetable_00010_00014,timetable_00010_00015,timetable_00010_00016,timetable_00010_00017,timetable_00010_00018,timetable_00010_00019,timetable_00010_00020],1)
+**EOF**

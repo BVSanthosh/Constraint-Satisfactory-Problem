@@ -1,0 +1,67 @@
+language ESSENCE' 1.0
+
+$ Parameters
+given n_surgeons: int 
+given n_op: int 
+given n_specialities: int
+given duration: matrix indexed by [int(1..n_op)] of int 
+given available_personnel: matrix indexed by [int(1..n_specialities)] of int
+given manning: matrix indexed by [int(1..n_op), int(1..n_specialities)] of int
+given n_ordering_relations: int
+given order: matrix indexed by [int(1..n_ordering_relations), int(1..2)] of int 
+
+$ Constant
+letting MAX_TIME be 1000
+
+$ Decision Variables
+find timetable: matrix indexed by [int(1..n_op), int(1..MAX_TIME)] of int(0..1)
+find total_time: int(1..MAX_TIME)
+
+$ Optimisation Function
+minimising total_time
+
+$ Constraints
+such that 
+    $ total time should be either equal to or less than the sum of all durations
+    total_time <= sum([duration[index] | index : int(1..n_op)]),
+    
+    $ all time slots before the end time of the final operation need to be filled to optimise the time take
+    forAll col : int(1..sum(duration)) .
+        (col < total_time) ->
+            sum([timetable[row, col] | row : int(1..n_op)]) >= 1,
+    
+    $ all time slots after the end time of the final operation need to be empty to optimise the time take
+    forAll col : int(1..MAX_TIME) .
+        (col >= total_time) ->
+            sum([timetable[row, col] | row : int(1..n_op)]) = 0,
+
+    $ each operation should be completed in the given duration
+    forAll row : int(1..n_op) . 
+        sum([timetable[row, col] | col : int(1..sum(duration))]) = duration[row],
+
+    $ each operation should be completed in one go without interruption
+    forAll row : int(1..n_op) .
+        forAll col : int(1..sum(duration)-1) .
+            (timetable[row, col] = 1 /\ timetable[row, col+1] = 0) ->
+                forAll num : int(col+1..sum(duration)) .
+                    timetable[row, num] = 0,
+
+    $ all surgeons should only be managing one operation at a given time
+    forAll col : int(1..sum(duration)) .
+        sum([timetable[row, col] | row : int(1..n_op)]) <= n_surgeons,
+
+    $ the number of required personnel for all the operations happening at a given time should not exceed the number of availabe personnel
+    forAll col : int(1..sum(duration)) .
+        forAll staff : int(1..n_specialities) .
+            sum([manning[row, staff] * timetable[row, col] | row : int(1..n_op)]) <= available_personnel[staff],
+
+    $ each operation in each of the ordered pair shouldn't overlap
+    forAll pair : int(1..n_ordering_relations) .
+        forAll col  : int(1..sum(duration)) .
+            timetable[order[pair, 1], col] * timetable[order[pair, 2], col] = 0,
+
+    $ the given order of operations need to be followed
+    forAll pair : int(1..n_ordering_relations) .
+        forAll col : int(1..sum(duration)) .
+            timetable[order[pair, 1], col] = 1 ->
+            (sum([timetable[order[pair, 2], num] | num : int(1..col)]) = 0)
